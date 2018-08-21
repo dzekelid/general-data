@@ -14,4 +14,44 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /search:
+    get:
+      summary: Search by keyword
+      description: This namespace provides search details for data accessible by that
+        user.
+      operationId: search
+      x-api-path-slug: search-get
+      parameters:
+      - in: query
+        name: correct
+        description: correct (default true) - correct mistakes in the query or not
+        type: string
+        format: string
+      - in: query
+        name: count
+        description: count (default 100) - number results count [0
+        type: string
+        format: string
+      - in: query
+        name: query
+        description: search query for which data is required
+        type: string
+        format: string
+      - in: query
+        name: scope
+        description: String to specify the type of search results
+        type: string
+        format: string
+      - in: query
+        name: start
+        description: start (default 0) - number of the first result [0
+        type: string
+        format: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - Search
 ---

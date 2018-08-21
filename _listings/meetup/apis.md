@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Meetup
+  x-api-slug: meetup
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/activity-get-openapi.md
 - name: Meetup
   x-api-slug: meetup
   description: Find Meetups so you can do more of what matters to you. Or create your

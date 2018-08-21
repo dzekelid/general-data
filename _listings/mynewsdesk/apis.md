@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-myne
 x-kinRank: "7"
 x-alexaRank: "26576"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/apis.md
 specificationVersion: "0.14"
 apis:
+- name: My News Desk Pressroom List
+  x-api-slug: my-news-desk-pressroom-list
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
+  humanURL: http://www.mynewsdesk.com
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/list-get-openapi.md
+- name: My News Desk Pressroom List
+  x-api-slug: my-news-desk-pressroom-list
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
+  humanURL: http://www.mynewsdesk.com
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/list-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/search-get-openapi.md
 - name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
   description: Discover the impact of Digital PR! Monitor what is being said about

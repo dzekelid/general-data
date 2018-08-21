@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Lykke
+  x-api-slug: lykke
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/apiethereumhistoryaddress-get-openapi.md
 - name: Lykke
   x-api-slug: lykke
   description: Lykke is a movement to build one global marketplace that is a level

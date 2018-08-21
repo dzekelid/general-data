@@ -8,8 +8,8 @@ image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/groupon/apis.md
 specificationVersion: "0.14"
 apis:

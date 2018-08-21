@@ -11,11 +11,87 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/apis.md
 specificationVersion: "0.14"
 apis:
+- name: National Crime Victimization Survey (NCVS) API
+  x-api-slug: national-crime-victimization-survey-ncvs-api
+  description: the-ncvs-national-crime-victimization-survey-restful-api-is-a-web-service-that-provides-criminal-victimization-data-obtained-annually-from-a-nationally-representative-sample-of-about-79800-households-and-143210-persons-interviewed-each-year--
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png
+  humanURL: http://bjs.gov
+  baseURL: http://www.bjs.gov//bjs/ncvs/
+  tags: Federal Government, Stack Network, API Provider, Data Provider, Profiles,
+    General Data, Surveillance
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-openapi.md
+- name: National Crime Victimization Survey (NCVS) API
+  x-api-slug: national-crime-victimization-survey-ncvs-api
+  description: the-ncvs-national-crime-victimization-survey-restful-api-is-a-web-service-that-provides-criminal-victimization-data-obtained-annually-from-a-nationally-representative-sample-of-about-79800-households-and-143210-persons-interviewed-each-year--
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png
+  humanURL: http://bjs.gov
+  baseURL: http://www.bjs.gov//bjs/ncvs/
+  tags: Federal Government, Stack Network, API Provider, Data Provider, Profiles,
+    General Data, Surveillance
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-openapi.md
+- name: National Crime Victimization Survey (NCVS) API
+  x-api-slug: national-crime-victimization-survey-ncvs-api
+  description: the-ncvs-national-crime-victimization-survey-restful-api-is-a-web-service-that-provides-criminal-victimization-data-obtained-annually-from-a-nationally-representative-sample-of-about-79800-households-and-143210-persons-interviewed-each-year--
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png
+  humanURL: http://bjs.gov
+  baseURL: http://www.bjs.gov//bjs/ncvs/
+  tags: Federal Government, Stack Network, API Provider, Data Provider, Profiles,
+    General Data, Surveillance
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdyear-get-openapi.md
+- name: National Crime Victimization Survey (NCVS) API
+  x-api-slug: national-crime-victimization-survey-ncvs-api
+  description: the-ncvs-national-crime-victimization-survey-restful-api-is-a-web-service-that-provides-criminal-victimization-data-obtained-annually-from-a-nationally-representative-sample-of-about-79800-households-and-143210-persons-interviewed-each-year--
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png
+  humanURL: http://bjs.gov
+  baseURL: http://www.bjs.gov//bjs/ncvs/
+  tags: Federal Government, Stack Network, API Provider, Data Provider, Profiles,
+    General Data, Surveillance
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2personalpopulationyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdyear-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdpopulationyear-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/v2householdpopulationyear-get-openapi.md
 - name: National Crime Victimization Survey (NCVS) API
   x-api-slug: national-crime-victimization-survey-ncvs-api
   description: NCVS data describe the frequency, characteristics and consequences

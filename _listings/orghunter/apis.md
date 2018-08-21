@@ -8,11 +8,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28476-org-
 x-kinRank: "7"
 x-alexaRank: "2914633"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/orghunter/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Org Hunter
+  x-api-slug: org-hunter
+  description: get-the-latest-irs-data-and-most-up-to-date-charity-information-for-your-website-or-application
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28476-org-hunter.jpg
+  humanURL: http://orghunter.com
+  baseURL: https://data.orghunter.com//
+  tags: Technology, internet, API Provider, Charities, Profiles, General Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/orghunter/v1charitysearch-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/orghunter/v1charitysearch-post-openapi.md
 - name: Org Hunter
   x-api-slug: org-hunter
   description: OrgHunter.com is the number one destination for online charity and

@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/school-digger/apis.md
 specificationVersion: "0.14"
 apis:
+- name: School Digger API V1
+  x-api-slug: school-digger-api-v1
+  description: get-detailed-data-on-over-120000-schools-and-18500-districts-in-the-u-s-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schooldigger.png
+  humanURL: http://schooldigger.com
+  baseURL: https://api.schooldigger.com//
+  tags: Schools, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/school-digger/v1rankingsdistrictsst-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/school-digger/v1rankingsdistrictsst-get-openapi.md
 - name: School Digger API V1
   x-api-slug: school-digger-api-v1
   description: Start your search for a great school at SchoolDigger.com! We have test

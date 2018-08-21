@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-
 x-kinRank: "7"
 x-alexaRank: "3933231"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nxtport/apis.md
 specificationVersion: "0.14"
 apis:
+- name: NxtPort Bel Air API
+  x-api-slug: nxtport-bel-air-api
+  description: api-for-querying-air-quality-data--different-layers-of-and-time-slices-for-each-metric-can-be-queried--the-project-is-part-of-the-antwerp-smart-zone-initiative-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api-stg.nxtport.eu//belair/v1
+  tags: New, Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nxtport/layerslayeridmetriciddate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nxtport/layerslayeridmetriciddate-get-openapi.md
 - name: NxtPort Bel Air API
   x-api-slug: nxtport-bel-air-api
   description: NxtPort opens the gates to the Port of the future. This project is

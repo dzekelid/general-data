@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Eventbrite
+  x-api-slug: eventbrite
+  description: create-manage--promote-events--add-eventmanagement-features-to-your-site--show-the-world-what-exciting-things-are-happening-around-them-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eventbrite/event-search-get-openapi.md
 - name: Eventbrite
   x-api-slug: eventbrite
   description: Eventbrite brings people together through live experiences. Discover

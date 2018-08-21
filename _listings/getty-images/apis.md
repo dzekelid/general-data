@@ -8,11 +8,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Getty Images
+  x-api-slug: getty-images
+  description: build-applications-using-the-worlds-most-powerful-imagery
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
+  humanURL: http://www.gettyimages.com/
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/getty-images/v3searchevents-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/getty-images/v3searchevents-get-openapi.md
 - name: Getty Images
   x-api-slug: getty-images
   description: Find high resolution royalty-free images, editorial stock photos, vector

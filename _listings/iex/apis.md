@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.
 x-kinRank: "9"
 x-alexaRank: "166667"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/apis.md
 specificationVersion: "0.14"
 apis:
@@ -199,6 +199,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
+- name: IEX Trading API
+  x-api-slug: iex-trading-api
+  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
+  humanURL: https://iextrading.com
+  baseURL: https://api.iextrading.com//1.0
+  tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
+    Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
+    API, StreamRank, Relative StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/statshistorical-get-openapi.md
+- name: IEX Trading API
+  x-api-slug: iex-trading-api
+  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
+  humanURL: https://iextrading.com
+  baseURL: https://api.iextrading.com//1.0
+  tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
+    Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
+    API, StreamRank, Relative StreamRank
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/statshistorical-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/hist-get-openapi.md
 - name: IEX Trading API
   x-api-slug: iex-trading-api
   description: IEX, the Investors Exchange, is a fair, simple and transparent stock

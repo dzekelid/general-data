@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
 apis:

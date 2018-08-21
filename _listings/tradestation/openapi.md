@@ -19,4 +19,42 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /stream/barchart/{symbol}/{interval}/{unit}/{startDate}:
+    get:
+      summary: Stream BarChart - Starting on Date
+      description: Streams barchart data starting from startDate, each bar filling
+        quantity of unit.
+      operationId: streamBarchartsFromStartDate
+      x-api-path-slug: streambarchartsymbolintervalunitstartdate-get
+      parameters:
+      - in: query
+        name: access_token
+        description: A valid OAuth2 token used to authorize access to the resource
+      - in: path
+        name: interval
+        description: Interval that each bar will consist of
+      - in: query
+        name: SessionTemplate
+        description: United States (US) stock market session templates, that extend
+          bars returned to include those outside of the regular trading session
+      - in: path
+        name: startDate
+        description: The starting date to begin streaming bars from
+      - in: path
+        name: symbol
+        description: A Symbol Name
+      - in: path
+        name: unit
+        description: Unit of time for each bar interval
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Stream
+      - BarChart
+      - '-'
+      - Starting
+      - "On"
+      - Date
 ---

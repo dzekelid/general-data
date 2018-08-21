@@ -9,8 +9,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-20"
-modified: "2018-08-20"
+created: "2018-08-21"
+modified: "2018-08-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-geographical-names/apis.md
 specificationVersion: "0.14"
 apis:

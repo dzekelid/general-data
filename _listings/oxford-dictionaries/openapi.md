@@ -15,4 +15,24 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /filters/{endpoint}:
+    get:
+      summary: Lists available filters for specific endpoint
+      description: Returns a list of all the valid filters for a given endpoint to
+        construct API calls.
+      operationId: getFiltersEndpoint
+      x-api-path-slug: filtersendpoint-get
+      parameters:
+      - in: path
+        name: endpoint
+        description: Name of the endpoint
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filters
+      - Endpoint
 ---
