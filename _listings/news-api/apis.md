@@ -57,6 +57,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://new.relic.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://news.api.stack.network
 - type: x-email

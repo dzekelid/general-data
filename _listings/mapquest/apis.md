@@ -25,6 +25,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mapquest/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://mailjet.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://mapquest.stack.network
 - type: x-base

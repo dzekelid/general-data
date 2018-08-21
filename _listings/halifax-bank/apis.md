@@ -28,6 +28,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/halifax-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://hacker.news.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://halifax.bank.stack.network
 - type: x-developer

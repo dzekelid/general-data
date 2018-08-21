@@ -26,6 +26,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-snow-and-ice-data-center/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://national.renewable.energy.laboratory.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://national.snow.and.ice.data.center.stack.network
 - type: x-website

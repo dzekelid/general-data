@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/santander-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://salesloft.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://santander.bank.stack.network
 - type: x-crunchbase

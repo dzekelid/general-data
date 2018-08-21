@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/natwest/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nationwide.building.society.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://natwest.stack.network
 - type: x-developer

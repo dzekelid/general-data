@@ -104,6 +104,8 @@ x-common:
   url: https://medium.com/feed/coord
 - type: x-openapi
   url: https://jsapi.apiary.io/apis/coordprodsearchtolls.source
+- type: x-api-gallery
+  url: http://convertapi.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://coord.stack.network
 - type: x-developer

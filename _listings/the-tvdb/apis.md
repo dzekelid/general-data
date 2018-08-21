@@ -28,6 +28,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-tvdb/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://the.open.movie.database.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://the.tvdb.stack.network
 - type: x-documentation

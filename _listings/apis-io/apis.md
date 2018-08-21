@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apis.json
+- type: x-api-gallery
+  url: http://apis.guru.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://apis.io.stack.network
 - type: x-crunchbase

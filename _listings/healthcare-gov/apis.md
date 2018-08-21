@@ -55,6 +55,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/healthcare-gov/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://halifax.bank.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://healthcare.gov.stack.network
 - type: x-developer

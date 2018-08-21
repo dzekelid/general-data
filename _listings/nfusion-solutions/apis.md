@@ -36,6 +36,8 @@ x-common:
   url: https://api.nfusionsolutions.biz/swagger/1/swagger.json
 - type: x-website
   url: http://www.nfusionsolutions.com
+- type: x-api-gallery
+  url: http://next.caller.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://nfusion.solutions.stack.network
 - type: x-blog

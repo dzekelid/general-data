@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+- type: x-api-gallery
+  url: http://mynewsdesk.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://myspace.developers.stack.network
 - type: x-blog

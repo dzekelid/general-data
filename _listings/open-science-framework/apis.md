@@ -37,6 +37,8 @@ apis:
 x-common:
 - type: x-website
   url: https://cos.io
+- type: x-api-gallery
+  url: http://open.fintech.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://open.science.framework.stack.network
 - type: x-github

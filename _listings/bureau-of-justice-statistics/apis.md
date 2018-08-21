@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bureau.of.economic.analysis.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://bureau.of.justice.statistics.stack.network
 - type: x-developer

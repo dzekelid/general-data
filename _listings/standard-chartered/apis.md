@@ -37,6 +37,8 @@ apis:
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility
+- type: x-api-gallery
+  url: http://stack.exchange.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://standard.chartered.stack.network
 - type: x-applications

@@ -62,6 +62,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/allied-irish-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://allied.irish.bank.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://allied.irish.bank.stack.network
 - type: x-developer

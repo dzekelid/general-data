@@ -30,6 +30,8 @@ x-common:
   url: http://www.yahoo.com
 - type: x-advertising
   url: https://developer.yahoo.com/everything.html#groupAdvertise
+- type: x-api-gallery
+  url: http://xignite.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://yahoo.stack.network
 - type: x-application-management

@@ -48,6 +48,8 @@ apis:
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
+- type: x-api-gallery
+  url: http://telapi.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://the.guardian.stack.network
 - type: x-base

@@ -60,6 +60,8 @@ x-common:
   url: https://github.com/7digital/SevenDigital.Api.Wrapper
 - type: x-android-sdk
   url: http://developer.7digital.com/7digital-android-sdk
+- type: x-api-gallery
+  url: http://7digital.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://7digital.stack.network
 - type: x-application-gallery

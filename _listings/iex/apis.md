@@ -211,6 +211,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://idx.broker.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://iex.stack.network
 - type: x-authentication

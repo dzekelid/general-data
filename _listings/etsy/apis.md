@@ -28,6 +28,8 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://etsy.stack.network
 - type: x-application-gallery

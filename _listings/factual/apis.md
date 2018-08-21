@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-website
   url: http://www.factual.com/
+- type: x-api-gallery
+  url: http://facebook.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://factual.stack.network
 - type: x-base

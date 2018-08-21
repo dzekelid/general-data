@@ -25,6 +25,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amadeus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://amadeus.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://amadeus.stack.network
 - type: x-crunchbase

@@ -43,6 +43,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-laws/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bc.geographical.names.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://bc.laws.stack.network
 - type: x-website

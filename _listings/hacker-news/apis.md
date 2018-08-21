@@ -28,6 +28,8 @@ apis:
 x-common:
 - type: x-twitter
   url: https://twitter.com/newsycombinator
+- type: x-api-gallery
+  url: http://gumroad.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://hacker.news.stack.network
 - type: x-developer

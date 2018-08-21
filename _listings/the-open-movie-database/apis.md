@@ -35,6 +35,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://the.new.york.times.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://the.open.movie.database.stack.network
 - type: x-selfservice-registration

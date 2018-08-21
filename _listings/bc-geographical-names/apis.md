@@ -41,6 +41,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-geographical-names/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bbc.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://bc.geographical.names.stack.network
 - type: x-website

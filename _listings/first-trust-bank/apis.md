@@ -30,6 +30,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/first-trust-bank/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://firebase.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://first.trust.bank.stack.network
 - type: x-developer

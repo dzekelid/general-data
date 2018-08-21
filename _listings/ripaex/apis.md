@@ -32,6 +32,8 @@ x-common:
   url: https://github.com/RipaEx
 - type: x-website
   url: http://www.ripaex.io
+- type: x-api-gallery
+  url: http://ringcentral.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://ripaex.stack.network
 - type: x-email

@@ -31,6 +31,8 @@ x-common:
   url: https://github.com/aWhereAPI
 - type: x-website
   url: http://www.awhere.com
+- type: x-api-gallery
+  url: http://automox.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://awhere.stack.network
 - type: x-blog

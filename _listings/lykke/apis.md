@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://lykke.stack.network
 - type: x-crunchbase

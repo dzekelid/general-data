@@ -26,6 +26,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/betterdoctor/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bc.route.planner.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://betterdoctor.stack.network
 - type: x-blog

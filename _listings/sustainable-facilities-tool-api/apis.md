@@ -26,6 +26,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/sustainable-facilities-tool-api/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://sugarsync..api.gallery.streamdata.io
 - type: x-api-stack
   url: http://sustainable.facilities.tool.api.stack.network
 - type: x-developer

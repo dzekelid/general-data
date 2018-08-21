@@ -28,6 +28,8 @@ x-common:
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
+- type: x-api-gallery
+  url: http://spire.global.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://spotify.stack.network
 - type: x-application-gallery

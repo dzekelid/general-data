@@ -34,6 +34,8 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/tumblr.json
+- type: x-api-gallery
+  url: http://tropo.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://tumblr.stack.network
 - type: x-base

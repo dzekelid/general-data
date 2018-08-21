@@ -44,6 +44,8 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+- type: x-api-gallery
+  url: http://opendns.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://openrouteservice.stack.network
 - type: x-crunchbase

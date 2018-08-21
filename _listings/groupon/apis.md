@@ -30,6 +30,8 @@ x-common:
   url: http://apis.io/apisdef/legacy/groupon.json
 - type: x-affiliate
   url: https://sites.google.com/site/grouponapiv2/api-usage/commission-junction-link-guide
+- type: x-api-gallery
+  url: http://graphhopper.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://groupon.stack.network
 - type: x-branding

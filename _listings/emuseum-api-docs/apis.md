@@ -30,6 +30,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/emuseum-api-docs/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://elastic.email.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://emuseum.api.docs.stack.network
 - type: x-issues-page

@@ -28,6 +28,8 @@ apis:
 x-common:
 - type: x-website
   url: http://www.tvmaze.com
+- type: x-api-gallery
+  url: http://tumblr.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://tvmaze.stack.network
 - type: x-developer

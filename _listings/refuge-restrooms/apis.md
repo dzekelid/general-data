@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/refuge-restrooms/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://reddit.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://refuge.restrooms.stack.network
 - type: x-documentation

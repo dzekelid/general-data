@@ -38,6 +38,8 @@ x-common:
   url: https://www.getpostman.com/collections/82cf673bb22d4f8b8881
 - type: x-website
   url: http://quovo.com
+- type: x-api-gallery
+  url: http://quandl.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://quovo.stack.network
 - type: x-authentication

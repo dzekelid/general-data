@@ -389,6 +389,8 @@ apis:
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://xignite.stack.network
 - type: x-base

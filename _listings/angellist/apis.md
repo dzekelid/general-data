@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-blog
   url: https://blog.angel.co
+- type: x-api-gallery
+  url: http://angellist.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://angellist.stack.network
 - type: x-base-url

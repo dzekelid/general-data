@@ -35,6 +35,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lufthansa/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lota.data.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://lufthansa.stack.network
 - type: x-crunchbase

@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quandl/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://qualpay.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://quandl.stack.network
 - type: x-authentication

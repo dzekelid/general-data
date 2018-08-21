@@ -36,6 +36,8 @@ x-common:
   url: https://github.com/CoinFabrik
 - type: x-openapi
   url: https://raw.githubusercontent.com/CoinFabrik/coinbase-api-swagger/master/swagger.json
+- type: x-api-gallery
+  url: http://codefresh.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://coinfabrik.stack.network
 - type: x-blog

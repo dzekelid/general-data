@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/linkedin/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://link.fish.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://linkedin.stack.network
 - type: x-authentication

@@ -30,6 +30,8 @@ apis:
 x-common:
 - type: x-website
   url: https://graphhopper.com
+- type: x-api-gallery
+  url: http://gotomeeting.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://graphhopper.stack.network
 - type: x-blog

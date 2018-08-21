@@ -35,6 +35,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eu-bon-utis/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://etsy.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://eu.bon.utis.stack.network
 - type: x-website

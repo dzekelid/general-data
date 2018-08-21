@@ -28,6 +28,8 @@ apis:
 x-common:
 - type: x-website
   url: http://www.tradestation.com
+- type: x-api-gallery
+  url: http://tigertext.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://tradestation.stack.network
 - type: x-crunchbase

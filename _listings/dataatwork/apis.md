@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/dataatwork/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://data2crm.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://dataatwork.stack.network
 - type: x-developer

@@ -43,6 +43,8 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json
+- type: x-api-gallery
+  url: http://fluxiom.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://foursquare.stack.network
 - type: x-apigee-console

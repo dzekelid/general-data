@@ -31,6 +31,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rotten-tomatoes/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rite.kit.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://rotten.tomatoes.stack.network
 - type: x-developer

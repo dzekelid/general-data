@@ -125,6 +125,8 @@ apis:
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
+- type: x-api-gallery
+  url: http://expedia.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://facebook.stack.network
 - type: x-apigee-console

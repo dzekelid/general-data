@@ -34,6 +34,8 @@ x-common:
   url: https://github.com/hitbtc-com
 - type: x-twitter
   url: https://twitter.com/hitbtc
+- type: x-api-gallery
+  url: http://hhs.media.services.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://hitbtc.stack.network
 - type: x-blog

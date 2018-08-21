@@ -37,6 +37,8 @@ apis:
 x-common:
 - type: x-openapi
   url: https://api.developer.attomdata.com/swagger/spec/propertyapi_property.json
+- type: x-api-gallery
+  url: http://atlassian.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://attom.stack.network
 - type: x-email

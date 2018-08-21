@@ -22,6 +22,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rite-kit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ripaex.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://rite.kit.stack.network
 - type: x-blog

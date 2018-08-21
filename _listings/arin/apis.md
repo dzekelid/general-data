@@ -134,6 +134,8 @@ apis:
 x-common:
 - type: x-website
   url: https://www.arin.net
+- type: x-api-gallery
+  url: http://appveyor.ci.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://arin.stack.network
 - type: x-crunchbase

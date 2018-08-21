@@ -38,6 +38,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/oxford-dictionaries/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://orghunter.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://oxford.dictionaries.stack.network
 - type: x-blog

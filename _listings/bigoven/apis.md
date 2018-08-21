@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-website
   url: http://www.bigoven.com
+- type: x-api-gallery
+  url: http://bigcommerce.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://bigoven.stack.network
 - type: x-base

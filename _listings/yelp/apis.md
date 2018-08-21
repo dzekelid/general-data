@@ -27,6 +27,8 @@ apis:
 x-common:
 - type: x-website
   url: http://yelp.com/engineering
+- type: x-api-gallery
+  url: http://yapily.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://yelp.stack.network
 - type: x-base

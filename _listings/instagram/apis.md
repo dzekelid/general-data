@@ -98,6 +98,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/instagram/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://infermedica.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://instagram.stack.network
 - type: x-application-management

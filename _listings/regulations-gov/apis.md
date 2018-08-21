@@ -28,6 +28,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/regulations-gov/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://refuge.restrooms.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://regulations.gov.stack.network
 - type: x-blog

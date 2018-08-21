@@ -45,6 +45,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/globalchange-gov/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gitter.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://globalchange.gov.stack.network
 - type: x-developer

@@ -28,6 +28,8 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: https://raw.githubusercontent.com/producthunt/producthunt-api/master/manifests/v1/apis.json
+- type: x-api-gallery
+  url: http://procore.technologies.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://product.hunt.stack.network
 - type: x-blog

@@ -30,6 +30,8 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://twitter.stack.network
 - type: x-apple-sdk

@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nationwide-building-society/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://national.snow.and.ice.data.center.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://nationwide.building.society.stack.network
 - type: x-developer

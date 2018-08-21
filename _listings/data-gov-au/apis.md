@@ -52,6 +52,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov-au/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://data.gov.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://data.gov.au.stack.network
 - type: x-website

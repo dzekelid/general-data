@@ -268,6 +268,8 @@ apis:
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://github.stack.network
 - type: x-base

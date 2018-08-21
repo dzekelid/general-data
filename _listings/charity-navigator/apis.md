@@ -36,6 +36,8 @@ x-common:
   url: https://charity.3scale.net/support
 - type: x-website
   url: http://www.charitynavigator.org
+- type: x-api-gallery
+  url: http://capital.one.devexchange.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://charity.navigator.stack.network
 - type: x-blog

@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/europeana/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://eu.vat.api.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://europeana.stack.network
 - type: x-base

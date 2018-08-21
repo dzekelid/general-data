@@ -32,6 +32,8 @@ x-common:
   url: https://api.cryptagio.com/docs/CryptagioAPI.json
 - type: x-website
   url: http://www.cryptagio.com
+- type: x-api-gallery
+  url: http://coutts.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://cryptagio.stack.network
 - type: x-documentation

@@ -32,6 +32,8 @@ x-common:
   url: http://webtris.highwaysengland.co.uk/api/swagger/ui/index
 - type: x-website
   url: http://webtris.highwaysengland.co.uk/
+- type: x-api-gallery
+  url: http://weatherbit.io.api.gallery.streamdata.io
 include: []
 maintainers:
 - FN: Kin Lane

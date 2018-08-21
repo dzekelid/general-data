@@ -34,6 +34,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gsa-per-diem-api/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://groupon.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://gsa.per.diem.api.stack.network
 - type: x-website

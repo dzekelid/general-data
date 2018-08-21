@@ -25,6 +25,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spreaker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://spotify.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://spreaker.stack.network
 - type: x-base

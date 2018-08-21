@@ -33,6 +33,8 @@ apis:
 x-common:
 - type: x-website
   url: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
+- type: x-api-gallery
+  url: http://uebermaps.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://uk.national.archives.stack.network
 - type: x-website

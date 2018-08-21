@@ -203,6 +203,8 @@ x-common:
   url: https://github.com/heremaps
 - type: x-postman-collection
   url: https://github.com/heremaps/postman-collections
+- type: x-api-gallery
+  url: http://healthcare.gov.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://here.stack.network
 - type: x-blog

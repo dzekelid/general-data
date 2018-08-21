@@ -30,6 +30,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-guru/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apimetrics.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://apis.guru.stack.network
 - type: x-website

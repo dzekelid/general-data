@@ -67,6 +67,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instructure.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://international.trade.administration.stack.network
 - type: x-base
