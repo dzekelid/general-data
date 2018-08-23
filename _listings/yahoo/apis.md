@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.
 x-kinRank: "9"
 x-alexaRank: "7"
 tags: General Data
-created: "2018-08-22"
-modified: "2018-08-22"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yahoo/apis.md
 specificationVersion: "0.14"
 apis:
