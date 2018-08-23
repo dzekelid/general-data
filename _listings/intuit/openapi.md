@@ -43,4 +43,28 @@ paths:
       - Accounting
       - Accounting
       - Exchangerate
+  /companyinfo/{companyid}:
+    get:
+      summary: Get Company
+      description: 'Method : GET'
+      operationId: getCompanyinfoCompany
+      x-api-path-slug: companyinfocompanyid-get
+      parameters:
+      - in: header
+        name: Accept
+      - in: path
+        name: companyid
+      - in: header
+        name: Content-Type
+      - in: query
+        name: minorversion
+      - in: header
+        name: User-Agent
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounting
+      - Accounting
+      - Company
 ---

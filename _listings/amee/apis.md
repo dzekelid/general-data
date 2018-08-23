@@ -6,11 +6,119 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-d
 x-kinRank: "8"
 x-alexaRank: "4769400"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companycreditdecision-get-openapi.md
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companycreditdecision-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyeconomyoverview-get-openapi.md
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companycreditdecision-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyeconomyoverview-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyoverview-get-openapi.md
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companycreditdecision-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyeconomyoverview-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyoverview-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companysignatory-get-openapi.md
+- name: AMEE Company API
+  x-api-slug: amee-company-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg
+  humanURL: https://www.amee.com
+  baseURL: https://api.roaring.io//company/1.0
+  tags: Carbon, Cleantech, Cleanweb, Climate, Environment, Business, Stack Network,
+    SaaS, Technology, Enterprise, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyboardmembers-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companycreditdecision-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyeconomyoverview-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companyoverview-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companysignatory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/companysimplesearch-get-openapi.md
 - name: AMEE Company API
   x-api-slug: amee-company-api
   description: Data driven solutions to strengthen supply chain performance and risk.

@@ -7,11 +7,45 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Foursquare
+  x-api-slug: foursquare
+  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuesadd-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuesadd-post-openapi.md
+- name: Foursquare
+  x-api-slug: foursquare
+  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuesadd-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuesadd-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuessearch-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/venuessearch-get-openapi.md
 - name: Foursquare
   x-api-slug: foursquare
   description: foursquare makes the real world easier to use. We build tools that

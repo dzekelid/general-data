@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/u-s--digital-registry/apis.md
 specificationVersion: "0.14"
 apis:
@@ -46,6 +46,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/u-s--digital-registry/openapi.md
+- name: U.S. Digital Registry Social Media API
+  x-api-slug: u-s--digital-registry-social-media-api
+  description: provides-access-to-the-social-media-accounts-for-top-federal-agencies-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg
+  humanURL: https://usdigitalregistry.digitalgov.gov
+  baseURL: https://usdigitalregistry.digitalgov.gov//api/v1
+  tags: Federal Government   GSA, Stack Network, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/u-s--digital-registry/social-mediaverify-json-get-openapi.md
 - name: U.S. Digital Registry Social Media API
   x-api-slug: u-s--digital-registry-social-media-api
   description: Whether for access to emergency, financial or education public services,

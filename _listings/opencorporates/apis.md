@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,60 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/account-status-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/officersid-get-openapi.md
+- name: OpenCorporates
+  x-api-slug: opencorporates
+  description: the-api-for-managing-opencorporates-data-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/account-status-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/officersid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/companiessearch-get-openapi.md
+- name: OpenCorporates
+  x-api-slug: opencorporates
+  description: the-api-for-managing-opencorporates-data-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/account-status-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/officersid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/companiessearch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/placeholderid-get-openapi.md
+- name: OpenCorporates
+  x-api-slug: opencorporates
+  description: the-api-for-managing-opencorporates-data-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
+  baseURL: ://api.opencorporates.com/v0.4/
+  tags: SMS, Enterprise, Finance, Business Intelligence, Corporate Data, Business,
+    My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
+    General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/account-status-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/officersid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/companiessearch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/placeholderid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/companiesjurisdiction-codecompany-numbernetwork-get-openapi.md
 - name: OpenCorporates
   x-api-slug: opencorporates
   description: OpenCorporates is a database of corporate data. OpenCorporates offers

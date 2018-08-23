@@ -10,11 +10,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usajobs-api/apis.md
 specificationVersion: "0.14"
 apis:
+- name: USAJobs API
+  x-api-slug: usajobs-api
+  description: federal-state-and-local-government-agencies-are-hiring-and-have-thousands-of-job-openings-across-the-country-posted-on-usajobs-gov-and-local-government-jobs-sites-
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usajobs.png
+  humanURL: https://search.digitalgov.gov/developer/jobs.html
+  baseURL: https://api.usa.gov//
+  tags: Federal Government   GSA, Stack Network, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usajobs-api/jobssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usajobs-api/jobssearch-json-get-openapi.md
 - name: USAJobs API
   x-api-slug: usajobs-api
   description: Federal, state, and local government agencies are hiring and have thousands

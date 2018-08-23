@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-
 x-kinRank: "9"
 x-alexaRank: "117"
 tags: General Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-new-york-times/apis.md
 specificationVersion: "0.14"
 apis:
-- name: New York Times
-  x-api-slug: new-york-times
+- name: The New York Times
+  x-api-slug: the-new-york-times
   description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
     on Washington, business, sports, movies, travel, books, jobs, education, real
     estate, cars & more at nytimes.com.'
