@@ -7,33 +7,11 @@ image: ""
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OMDb
-  x-api-slug: omdb
-  description: The OMDb API is a free web service to obtain movie information, all
-    content and images on the site are contributed and maintained by our users.
-  image: ""
-  humanURL: http://omdbapi.com
-  baseURL: https://www.omdbapi.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/openapi.md
-- name: The Open Movie Database API
-  x-api-slug: the-open-movie-database-api
-  description: The OMDb API is a free web service to obtain movie information, all
-    content and images on the site are contributed and maintained by our users.
-  image: ""
-  humanURL: http://omdbapi.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://the.new.york.times.api.gallery.streamdata.io

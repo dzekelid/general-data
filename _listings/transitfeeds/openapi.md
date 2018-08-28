@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: TransitFeeds
 x-complete: 1
@@ -56,4 +55,3 @@ paths:
       - List
       - Of
       - Feeds
----

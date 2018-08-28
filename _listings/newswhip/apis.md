@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-news
 x-kinRank: "8"
 x-alexaRank: "97323"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newswhip/apis.md
 specificationVersion: "0.14"
-apis:
-- name: News Whip API
-  x-api-slug: news-whip-api
-  description: Understand what social media content resonates with audiences. Centralize
-    your social media monitoring and analytics to discover whats driving engagement.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
-  humanURL: https://www.newswhip.com/
-  baseURL: https://api.newswhip.com/v1/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newswhip/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://newscred.api.gallery.streamdata.io

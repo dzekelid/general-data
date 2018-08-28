@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "598"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/npr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: NPR
-  x-api-slug: npr
-  description: NPR delivers breaking national and world news. Also top stories from
-    business, politics, health, science, technology, music, arts and culture. Subscribe
-    to podcasts and RSS feeds.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://npr.org
-  baseURL: https://api.npr.org//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/npr/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://nfusion.solutions.api.gallery.streamdata.io

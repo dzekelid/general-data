@@ -8,14 +8,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intui
 x-kinRank: "8"
 x-alexaRank: "263"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: QuickBooks Online V3 API
-  x-api-slug: quickbooks-online-v3-api
-  description: the-quickbooks-online-accounting-api-is-a-restful-api-that-is-used-to-access-quickbooks-companies-docs-
+- name: QuickBooks Online V3 API - Get Exchangerate
+  x-api-slug: exchangerate-get
+  description: |-
+    Get ExchangeRate
+    Method : GET
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
   humanURL: https://intuit.com
   baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
@@ -27,9 +29,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/exchangerate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/exchangerate-get-openapi.md
-- name: QuickBooks Online V3 API
-  x-api-slug: quickbooks-online-v3-api
-  description: the-quickbooks-online-accounting-api-is-a-restful-api-that-is-used-to-access-quickbooks-companies-docs-
+- name: QuickBooks Online V3 API - Get Company
+  x-api-slug: companyinfocompanyid-get
+  description: 'Method : GET'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
   humanURL: https://intuit.com
   baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
@@ -37,26 +39,10 @@ apis:
     Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
     Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/exchangerate-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/exchangerate-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/companyinfocompanyid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/companyinfocompanyid-get-openapi.md
-- name: QuickBooks Online V3 API
-  x-api-slug: quickbooks-online-v3-api
-  description: See how the power of Intuit Giants can work for you by joining the
-    over 46 million people already using TurboTax, QuickBooks and Mint to power their
-    financial prosperity.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
-  humanURL: https://intuit.com
-  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/openapi.md
 x-common:
 - type: x-postman-collection
   url: https://www.getpostman.com/collections/554420530884cde6b794

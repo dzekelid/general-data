@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: eBay
 x-complete: 1
@@ -73,4 +72,3 @@ paths:
       tags:
       - Auctions
       - Item
----

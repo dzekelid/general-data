@@ -8,14 +8,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "38551"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/knoema/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Knoema API
-  x-api-slug: knoema-api
-  description: you-dont-need-to-be-a-developer-to-get-started--we-made-a-number-of-useful-platform-features-available-as-ready-to-use-widgets--you-can-put-a-dashboard-or-presentation-with-any-visualizationcontent-you-like-and-then-embed-it-in-your-site-or-blog-in-a-few-minutes---such-an-approach-requires-no-programming-skills-at-all-just-basic-understanding-of-html--refer-to-widgets-sections-for-more-information-on-this-topic--knoema-is-a-truly-open-platform---in-addition-to-our-own-apis-we-support-several-formats-widely-acknowledged-by-industry-such-as-odata-and-sdmx---if-you-already-have-toolsclients-utilizing-data-in-these-formats-you-can-add-knoema-support-very-easily--more-information-can-be-found-in-open-data-section--for-enthusiasts-and-hardcore-developers-knoema-offers-extensive-knoema-api-providing-access-to-all-platform-capabilities--start-with-getting-familiar-with-core-knoema-concepts--then-proceed-to-applications-section-to-find-stepbystep-tutorials-detailed-documentation-and-sample-apps-
+- name: Knoema - Search by keyword
+  x-api-slug: search-get
+  description: This namespace provides search details for data accessible by that
+    user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
   humanURL: https://knoema.com
   baseURL: http://knoema.com//api/1.0
@@ -25,18 +26,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/knoema/search-get-openapi.md
-- name: Knoema API
-  x-api-slug: knoema-api
-  description: Knoema is the free to use public and open data platform for users with
-    interests in statistics and data analysis, visual storytelling and making infographics
-    and data-driven presentations
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
-  humanURL: https://knoema.com
-  baseURL: http://knoema.com//api/1.0
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/knoema/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://kentico.cloud.api.gallery.streamdata.io

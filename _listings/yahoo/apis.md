@@ -7,24 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.
 x-kinRank: "9"
 x-alexaRank: "7"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yahoo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Yahoo Weather
-  x-api-slug: yahoo-weather
-  description: The Weather RSS feed enables you to get up-to-date weather information
-    for your location. You can save this feed in My Yahoo! or your favorite feed aggregator,
-    or incorporate the RSS data into your own web site or client application. The
-    Weather RSS feed is a dynamically-generated feed based on WOEID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg
-  humanURL: http://www.yahoo.com
-  baseURL: https://weather.yahooapis.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yahoo/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.yahoo.com

@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-
 x-kinRank: "7"
 x-alexaRank: "884775"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/paretonetwork/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pareto
-  x-api-slug: pareto
-  description: A peer-to-peer financial content market place using the Ethereum distributed
-    ledger technology. Current, reputable &amp; actionable intel for digital currency
-    traders and investors.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg
-  humanURL: https://www.pareto.network
-  baseURL: https:////
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/paretonetwork/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://paralleldots.api.gallery.streamdata.io

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigove
 x-kinRank: "8"
 x-alexaRank: "117577"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bigoven/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Big Oven
-  x-api-slug: big-oven
-  description: Free recipe app for home cooks. Create a meal plan, grocery list and
-    more from your favorite recipes. Organize your recipe collection and take it anywhere.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
-  humanURL: http://www.bigoven.com
-  baseURL: https://api2.bigoven.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bigoven/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.bigoven.com

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europe
 x-kinRank: "9"
 x-alexaRank: "68066"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/europeana/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Europeana
-  x-api-slug: europeana
-  description: Explore 51,990,182 artworks, artefacts, books, videos and sounds from
-    more than 3,500 museums, galleries, libraries and archives across Europe.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
-  humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/europeana/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://eu.vat.api.api.gallery.streamdata.io

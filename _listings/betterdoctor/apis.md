@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-bett
 x-kinRank: "8"
 x-alexaRank: "625342"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
-apis:
-- name: BetterDoctor
-  x-api-slug: betterdoctor
-  description: BetterDoctor helps people find and connect to the best doctors through
-    our consumer app, doctor marketing services, and API. Our mission is to help increase
-    transparency in healthcare and help consumers make better decisions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
-  humanURL: https://developer.betterdoctor.com
-  baseURL: https://api.betterdoctor.com//2016-03-01
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/betterdoctor/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://bc.route.planner.api.gallery.streamdata.io

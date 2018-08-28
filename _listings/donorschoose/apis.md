@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donors
 x-kinRank: "7"
 x-alexaRank: "23784"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/donorschoose/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Donors Choose
-  x-api-slug: donors-choose
-  description: DonorsChoose.org connects teachers in high-need communities with donors
-    who want to help.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donorschoose.jpg
-  humanURL: http://donorschoose.org
-  baseURL: https://api.donorschoose.org/common/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/donorschoose/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://domaintools.api.gallery.streamdata.io

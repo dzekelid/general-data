@@ -9,23 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blogger/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Blogger API
-  x-api-slug: blogger-api
-  description: The Blogger API v3 allows client applications to view and update Blogger
-    content. Your client application can use Blogger API v3 to create new blog posts,
-    edit or delete existing posts, and query for posts that match particular criteria.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
-  humanURL: https://www.blogger.com
-  baseURL: ://www.googleapis.com//blogger/v3
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blogger/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://blockchain.api.gallery.streamdata.io

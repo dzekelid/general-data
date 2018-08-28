@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Healthcare.gov
 x-complete: 1
@@ -13,4 +12,3 @@ produces:
 - application/json
 consumes:
 - application/json
----

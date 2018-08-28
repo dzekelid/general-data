@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Youtube
-  x-api-slug: youtube
-  description: Enjoy the videos and music you love, upload original content, and share
-    it all with friends, family, and the world on YouTube.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/youtube/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://yelp.api.gallery.streamdata.io

@@ -11,40 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-guardian/apis.md
 specificationVersion: "0.14"
-apis:
-- name: The Guardian
-  x-api-slug: the-guardian
-  description: The Content API is a public service for accessing all the content the
-    Guardian creates and the collections we have of that content (tags and sections).
-    There are over one and a half million items available published as far back as
-    1999. This overview will give you some idea of what data is available, how to
-    find what you need, and what you will see when you make a request to us.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
-  humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-guardian/openapi.md
-- name: The Guardian Search (stream)
-  x-api-slug: the-guardian-search-stream
-  description: The Guardian is a British national daily newspaper which has grown
-    into a national paper associated with a complex organisational structure and an
-    international multimedia and web presence. The Guardian provides API access to
-    articles accessible by tag and section, and a suite of open source data and tools.
-    The Guardian makes content accessible to increase traffic, brand awareness, and
-    as a marketing vehicle, including partnership opportunities via platform program.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
-  humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-guardian/openapi.md
+apis: []
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/

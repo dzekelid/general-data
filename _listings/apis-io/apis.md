@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/95-apis-io
 x-kinRank: "10"
 x-alexaRank: "1028198"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-io/apis.md
 specificationVersion: "0.14"
-apis:
-- name: APIs.io
-  x-api-slug: apis-io
-  description: Find all the APIs you need to build your successful projects. APIs.io
-    is the first search engine for APIs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/95-apis-io.jpg
-  humanURL: http://apis.io/
-  baseURL: http://apis.io/api/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-io/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apis.json

@@ -11,25 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rotten-tomatoes/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: 'Rotten Tomatoes is a website containing information about movies:
-    information, news, reviews and ratings, pictures, etx. The Rotten Tomatoes API
-    is RESTful web service that was designed to be easy to explore and use. Developers
-    can use the API to access the Rotten Tomatoes&#039; database of movie data by
-    using the Lists, Movies, or DVDs sections of the API.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
-  humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rotten-tomatoes/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://rite.kit.api.gallery.streamdata.io

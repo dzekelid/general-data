@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OpenDataSoft
-  x-api-slug: opendatasoft
-  description: OpenDataSoft is a cloud-based turnkey platform for data publishing
-    and API management. Its interface is intuitively designed to empower anyone, regardless
-    of technical skills, to upload easy-to-understand Open Data, or to even share
-    data within an admi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opendatasoft/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://opencorporates.api.gallery.streamdata.io

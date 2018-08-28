@@ -12,27 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "77947"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/barclays/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Barclays
-  x-api-slug: barclays
-  description: 'Barclays is a British multinational bank and financial services company
-    headquartered in London. It is a universal bank with global reach, offering products
-    and services across personal, corporate and investment banking, credit cards and
-    wealth management. It has operations in over 40 countries and employs approximately
-    120,000 people. Barclays is organised into four core businesses: Personal &amp;
-    Corporate (Personal Banking, Corporate Banking, Wealth &amp; Investment Management),
-    Barclaycard, Investment Banking and Africa.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png
-  humanURL: https://barclays.com
-  baseURL: https://atlas.api.barclays/open-banking/v2.1/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/barclays/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://barchart.api.gallery.streamdata.io

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weathe
 x-kinRank: "10"
 x-alexaRank: "619"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weather-underground/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Weather Underground
-  x-api-slug: weather-underground
-  description: Weather Underground provides local & long range weather forecasts,
-    weather reports, maps & tropical weather conditions for locations worldwide.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
-  humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weather-underground/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://watchful.api.gallery.streamdata.io

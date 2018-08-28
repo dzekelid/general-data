@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sand
 x-kinRank: "8"
 x-alexaRank: "4309"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amadeus/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Amadeus
-  x-api-slug: amadeus
-  description: Amadeus travel technology helps businesses connect to the global travel
-    ecosystem, manage operations more effectively and serve travellers better than
-    ever
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
-  humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amadeus/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://amadeus.api.gallery.streamdata.io

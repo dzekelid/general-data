@@ -6,25 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Etsy
-  x-api-slug: etsy
-  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
-    the Etsy community, building their own Etsy-powered applications for the web,
-    desktop and mobile devices. Applications built on the API will connect buyers
-    with sellers, promote the handmade lifestyle, and support the craftspeople who
-    sell on Etsy.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/etsy/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json

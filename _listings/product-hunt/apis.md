@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-prod
 x-kinRank: "7"
 x-alexaRank: "4019"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/product-hunt/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Product Hunt
-  x-api-slug: product-hunt
-  description: Product Hunt is a curation of the best new products, every day. Discover
-    the latest mobile apps, websites, and technology products that everyones talking
-    about.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg
-  humanURL: http://producthunt.com
-  baseURL: https://api.producthunt.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/product-hunt/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: https://raw.githubusercontent.com/producthunt/producthunt-api/master/manifests/v1/apis.json

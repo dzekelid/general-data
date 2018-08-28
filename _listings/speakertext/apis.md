@@ -8,37 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speake
 x-kinRank: "7"
 x-alexaRank: "813304"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/speakertext/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Speaker Text
-  x-api-slug: speaker-text
-  description: cielo24 captions, transcripts, and video intelligence transforms unstructured
-    media into fully searchable structured media data, powering enhanced discovery,
-    reach, engagement, and accessibility compliance. Contact us for a demo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg
-  humanURL: http://speakertext.com/
-  baseURL: https://api.speakertext.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/speakertext/openapi.md
-- name: SpeakerText
-  x-api-slug: speakertext
-  description: SpeakerText is an online transcription service that provides transcription
-    services for video and audio content. When the audio and video content is transcribed
-    into text, it can be searched and shared.The SpeakerText API allows users to access
-    SpeakerText functionality in other applications. The two API methods are posting
-    content for transcription and retrieving the text transcript.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg
-  humanURL: http://speakertext.com/
-  baseURL: https://api.speakertext.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/speakertext/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://sparkpost.api.gallery.streamdata.io

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: TradeStation
 x-complete: 1
@@ -57,4 +56,3 @@ paths:
       - Starting
       - "On"
       - Date
----

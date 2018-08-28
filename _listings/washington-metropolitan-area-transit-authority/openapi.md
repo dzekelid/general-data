@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Washington Metropolitan Area Transit Authority
 x-complete: 1
@@ -14,4 +13,3 @@ produces:
 - application/json
 consumes:
 - application/json
----

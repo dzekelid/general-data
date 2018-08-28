@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: National Snow and Ice Data Center
 x-complete: 1
@@ -110,4 +109,3 @@ paths:
           description: OK
       tags:
       - Environment
----

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stockt
 x-kinRank: "8"
 x-alexaRank: "6524"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocktwits/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Stocktwits
-  x-api-slug: stocktwits
-  description: StockTwits is a real-time social network for investors and traders.
-    Download our app and visit StockTwits.com.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stocktwits.jpg
-  humanURL: http://stocktwits.com
-  baseURL: :///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocktwits/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://stocklytics.api.gallery.streamdata.io

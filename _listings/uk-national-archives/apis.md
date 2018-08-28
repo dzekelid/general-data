@@ -12,24 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uk-national-archives/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Getty Images Search API
-  x-api-slug: getty-images-search-api
-  description: Our set of APIs enable seamless integration of Getty Images expansive
-    content, powerful search and rich metadata directly into your internal workflows,
-    products and services. With Connects API solutions, you can fully control, customize
-    and scale as you grow.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg
-  humanURL: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
-  baseURL: https://api.gettyimages.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uk-national-archives/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm

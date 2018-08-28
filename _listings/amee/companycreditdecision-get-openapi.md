@@ -4,8 +4,8 @@ x-collection-name: AMEE
 x-complete: 0
 info:
   title: AMEE Company API Get Company Credit Decision
-  version: "1.0"
   description: Get company credit decision.
+  version: "1.0"
 host: api.roaring.io
 basePath: /company/1.0
 schemes:

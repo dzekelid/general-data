@@ -7,47 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-natio
 x-kinRank: "7"
 x-alexaRank: "31023"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/apis.md
 specificationVersion: "0.14"
-apis:
-- name: High Performance Building Database
-  x-api-slug: high-performance-building-database
-  description: The National Renewable Energy Laboratory (NREL) is the nations primary
-    laboratory for renewable energy and energy efficiency research and development
-    (R&D).
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
-  humanURL: http://nrel.gov
-  baseURL: https://developer.nrel.gov//api/building-case-studies
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/openapi.md
-- name: National Renewable Energy Lab
-  x-api-slug: national-renewable-energy-lab
-  description: The National Renewable Energy Laboratorys developer network helps developers
-    access and use energy data via Web services, including renewable energy and alternative
-    fuel data8
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
-  humanURL: http://nrel.gov
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/openapi.md
-- name: Transportation Laws and Incentives
-  x-api-slug: transportation-laws-and-incentives
-  description: The National Renewable Energy Laboratory (NREL) is the nations primary
-    laboratory for renewable energy and energy efficiency research and development
-    (R&D).
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
-  humanURL: http://nrel.gov
-  baseURL: https://developer.nrel.gov//api/transportation-incentives-laws
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://myspace.developers.api.gallery.streamdata.io

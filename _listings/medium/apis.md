@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/medium/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Medium
-  x-api-slug: medium
-  description: Medium is an online publishing platform founded by Twitter co-founder
-    Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional
-    contributions and professional, paid contributions, an example of social journalism.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
-  humanURL: https://medium.com/
-  baseURL: https://api.medium.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/medium/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://mattermost.api.gallery.streamdata.io

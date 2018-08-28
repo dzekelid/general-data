@@ -11,23 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Wordnik
-  x-api-slug: wordnik
-  description: The Wordnik API lets you request definitions, example sentences, spelling
-    suggestions, related words like synonyms and antonyms, phrases containing a given
-    word, word autocompletion, random words, words of the day, and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wordnik/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://wikipedia.api.gallery.streamdata.io

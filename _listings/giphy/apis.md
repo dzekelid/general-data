@@ -11,24 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/giphy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Giphy Gif API
-  x-api-slug: giphy-gif-api
-  description: Giphy is an animated search engine for discovering and sharing GIF
-    images. Giphy exposes its search capabilities through a RESTlike API. The API
-    is comprised of nine JSON endpoints, allowing developers to search for GIFs using
-    a variety of filters and search parameters.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png
-  humanURL: https://giphy.com
-  baseURL: http://api.giphy.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/giphy/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://gig..crowd.api.gallery.streamdata.io

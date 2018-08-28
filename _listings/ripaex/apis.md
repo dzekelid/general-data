@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripa
 x-kinRank: "7"
 x-alexaRank: "1669824"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ripaex/apis.md
 specificationVersion: "0.14"
 apis:
-- name: RipaEx
-  x-api-slug: ripaex
-  description: this-is-a-documentation-for-ripanodehttpsgithub-comripaexripanode-built-with-swagger-ui-to-make-testing-a-breeze--if-you-find-any-issues-come-over-to-ripaexripanodetestapihttpsgithub-comripaexripanodetestapi-to-open-an-issue-or-even-better-send-a-pr-that-fixes-the-issue-the-community-ssl-public-api-used-as-test-host-is-provided-from-ripaex-iohttpswww-ripaex-io-
+- name: RIPA Node Documentation - Transactions
+  x-api-slug: apitransactions-get
+  description: Get all transactions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg
   humanURL: http://www.ripaex.io
   baseURL: https://api.ripaex.io//
@@ -23,18 +23,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ripaex/apitransactions-get-openapi.md
-- name: RipaEx
-  x-api-slug: ripaex
-  description: Ripa Exchange is an hybrid-decentralized exchange with a strong focus
-    on lowering the entry level for opening new exchanges and giving crypto traders
-    safe and secure trading partners to operate on a daily basis.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg
-  humanURL: http://www.ripaex.io
-  baseURL: https://api.ripaex.io//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ripaex/openapi.md
 x-common:
 - type: x-documentation
   url: https://test.ripaex.io/

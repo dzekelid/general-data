@@ -6,21 +6,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rite-kit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Rite Kit
-  x-api-slug: rite-kit
-  description: ""
-  image: ""
-  humanURL: http://ritekit.com
-  baseURL: https://api.ritekit.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rite-kit/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://ripaex.api.gallery.streamdata.io

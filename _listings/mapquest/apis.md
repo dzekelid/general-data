@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapque
 x-kinRank: "10"
 x-alexaRank: "2843"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mapquest/apis.md
 specificationVersion: "0.14"
-apis:
-- name: MapQuest
-  x-api-slug: mapquest
-  description: Official MapQuest website, find driving directions, maps, live traffic
-    updates and road conditions.  Find nearby businesses, restaurants and hotels.
-    Explore!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapquest.jpg
-  humanURL: http://mapquest.com
-  baseURL: https://www.mapquestapi.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mapquest/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://mailjet.api.gallery.streamdata.io

@@ -1,14 +1,288 @@
----
 swagger: "2.0"
 x-collection-name: GitHub
 x-complete: 1
 info:
   title: GitHub
   version: 1.0.0
+host: api.github.com
+basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /orgs/{org}:
+    get:
+      summary: Get Orgs Org
+      description: Get an Organization.
+      operationId: get-an-organization
+      x-api-path-slug: orgsorg-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+  /orgs/{org}/events:
+    get:
+      summary: Get Orgs Org Events
+      description: List public events for an organization.
+      operationId: list-public-events-for-an-organization
+      x-api-path-slug: orgsorgevents-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Events
+  /orgs/{org}/issues:
+    get:
+      summary: Get Orgs Org Issues
+      description: |-
+        List issues.
+        List all issues for a given organization for the authenticated user.
+      operationId: list-issueslist-all-issues-for-a-given-organization-for-the-authenticated-user
+      x-api-path-slug: orgsorgissues-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: query
+        name: direction
+      - in: query
+        name: filter
+        description: Issues assigned to you / created by you / mentioning you / youresubscribed
+          to updates for / All issues the authenticated user can see
+      - in: query
+        name: labels
+        description: String list of comma separated Label names
+      - in: path
+        name: org
+        description: Name of organisation
+      - in: query
+        name: since
+        description: 'Optional string of a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ'
+      - in: query
+        name: sort
+      - in: query
+        name: state
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Issues
+  /orgs/{org}/members:
+    get:
+      summary: Get Orgs Org Members
+      description: |-
+        Members list.
+        List all users who are members of an organization. A member is a user tha
+        belongs to at least 1 team in the organization. If the authenticated user
+        is also an owner of this organization then both concealed and public members
+        will be returned. If the requester is not an owner of the organization the
+        query will be redirected to the public members list.
+      operationId: members-listlist-all-users-who-are-members-of-an-organization-a-member-is-a-user-thabelongs-to-at-le
+      x-api-path-slug: orgsorgmembers-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Members
+  /orgs/{org}/members/{username}:
+    get:
+      summary: Get Orgs Org Members Username
+      description: Check if a user is, publicly or privately, a member of the organization.
+      operationId: check-if-a-user-is-publicly-or-privately-a-member-of-the-organization
+      x-api-path-slug: orgsorgmembersusername-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      - in: path
+        name: username
+        description: Name of the user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Members
+      - Username
+  /orgs/{org}/public_members:
+    get:
+      summary: Get Orgs Org Public Members
+      description: |-
+        Public members list.
+        Members of an organization can choose to have their membership publicized
+        or not.
+      operationId: public-members-listmembers-of-an-organization-can-choose-to-have-their-membership-publicizedor-not
+      x-api-path-slug: orgsorgpublic-members-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Public
+      - Members
+  /orgs/{org}/public_members/{username}:
+    get:
+      summary: Get Orgs Org Public Members Username
+      description: Check public membership.
+      operationId: check-public-membership
+      x-api-path-slug: orgsorgpublic-membersusername-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      - in: path
+        name: username
+        description: Name of the user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Public
+      - Members
+      - Username
+  /orgs/{org}/repos:
+    get:
+      summary: Get Orgs Org Repos
+      description: List repositories for the specified org.
+      operationId: list-repositories-for-the-specified-org
+      x-api-path-slug: orgsorgrepos-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      - in: query
+        name: type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Repos
+  /orgs/{org}/teams:
+    get:
+      summary: Get Orgs Org Teams
+      description: List teams.
+      operationId: list-teams
+      x-api-path-slug: orgsorgteams-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+        description: Name of organisation
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orgs
+      - Org
+      - Teams
+  /users/{username}/events/orgs/{org}:
+    get:
+      summary: Get Users Username Events Orgs Org
+      description: This is the user's organization dashboard. You must be authenticated
+        as the user to view this.
+      operationId: this-is-the-users-organization-dashboard-you-must-be-authenticated-as-the-user-to-view-this
+      x-api-path-slug: usersusernameeventsorgsorg-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: org
+      - in: path
+        name: username
+        description: Name of user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Username
+      - Events
+      - Orgs
+      - Org

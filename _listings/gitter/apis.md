@@ -7,33 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "18282"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gitter/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gitter API
-  x-api-slug: gitter-api
-  description: Gitter is a chat and networking platform that helps to manage, grow
-    and connect communities through messaging, content and discovery.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
-  humanURL: http://gitter.im
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gitter/openapi.md
-- name: Gitter Streaming API
-  x-api-slug: gitter-streaming-api
-  description: Gitter is a chat and networking platform that helps to manage, grow
-    and connect communities through messaging, content and discovery.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
-  humanURL: http://gitter.im
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gitter/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://gitlab.api.gallery.streamdata.io

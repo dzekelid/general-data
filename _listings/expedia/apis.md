@@ -7,26 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedi
 x-kinRank: "9"
 x-alexaRank: "197733"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Expedia
-  x-api-slug: expedia
-  description: Expedia is the leader in travel and technology and is the worlds largest
-    travel company. The EAN Developer Hub gives developers FREE access to our highly
-    flexible APIs that power cutting-edge websites, mobile apps, and much more. Some
-    of the best travel applications on the market are powered by the EAN API. Learn
-    more reasons to partner with EAN by taking a look at our brochure and watching
-    our video. The world of travel awaits you!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
-  humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/expedia/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://evrythng.api.gallery.streamdata.io

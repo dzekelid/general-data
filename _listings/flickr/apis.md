@@ -11,14 +11,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - People Get Photos
+  x-api-slug: restmethodflickr-people-getphotos-get
+  description: Return photos from the given user's photostream. Only photos visible
+    to the calling user will be returned. This method must be authenticated; to return
+    public photos for a user, use flickr.people.getPublicPhotos.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -30,9 +32,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Photos Search
+  x-api-slug: restmethodflickr-photos-search-get
+  description: Return a list of photos matching some criteria. Only photos visible
+    to the calling user will be returned. To return private or semi-private photos,
+    the caller must be authenticated with 'read' permissions, and have permission
+    to view the photos. Unauthenticated calls will only return public photos.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -40,17 +45,14 @@ apis:
     Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
     Data, Pedestal, Historical Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Places Places For User
+  x-api-slug: restmethodflickr-places-placesforuser-get
+  description: Return a list of the top 100 unique places clustered by a given placetype
+    for a user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -58,21 +60,13 @@ apis:
     Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
     Data, Pedestal, Historical Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Places Get Info By Url
+  x-api-slug: restmethodflickr-places-getinfobyurl-get
+  description: Lookup information about a place, by its flickr.com/places URL.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -80,25 +74,14 @@ apis:
     Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
     Data, Pedestal, Historical Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-getinfobyurl-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-getinfobyurl-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Places Resolve Place U R L
+  x-api-slug: restmethodflickr-places-resolveplaceurl-get
+  description: Find Flickr Places information by Place URL. This method has been deprecated.
+    It won't be removed but you should use flickr.places.getInfo instead.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -106,39 +89,10 @@ apis:
     Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
     Data, Pedestal, Historical Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-people-getphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-photos-search-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-placesforuser-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-getinfobyurl-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-getinfobyurl-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-resolveplaceurl-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/restmethodflickr-places-resolveplaceurl-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://flat.api.gallery.streamdata.io

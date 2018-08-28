@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spoti
 x-kinRank: "8"
 x-alexaRank: "132"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Spotify
-  x-api-slug: spotify
-  description: Spotify is a digital music service that gives you access to millions
-    of songs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
-  humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spotify/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json

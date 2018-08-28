@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/graphhopper/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Route Optimization
-  x-api-slug: route-optimization
-  description: Use our web services to add route planning, navigation and traffic
-    aware route optimization to your application in the food delivery industry or
-    for traveling salesmen. We help you to optimize the routes in your logistics,
-    GIS or real estate software.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphhopper-logo-small-300x51.png
-  humanURL: https://graphhopper.com
-  baseURL: https://graphhopper.com//api/1/vrp
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/graphhopper/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://graphhopper.com

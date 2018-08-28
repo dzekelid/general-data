@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clea
 x-kinRank: "8"
 x-alexaRank: "46525"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/clearbit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Clearbit
-  x-api-slug: clearbit
-  description: Clearbit provides powerful products and data APIs to help your business
-    grow. Contact enrichment, lead generation, financial compliance, and more...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg
-  humanURL: http://blog.clearbit.com
-  baseURL: https://discovery.clearbit.com//v1/companies
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/clearbit/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://cisco.webex.api.gallery.streamdata.io

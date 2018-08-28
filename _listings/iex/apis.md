@@ -7,235 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.
 x-kinRank: "9"
 x-alexaRank: "166667"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/apis.md
 specificationVersion: "0.14"
 apis:
-- name: IEX Auction (stream)
-  x-api-slug: iex-auction-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Batch Requests (stream)
-  x-api-slug: iex-batch-requests-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Book (stream)
-  x-api-slug: iex-book-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Corporate Actions (stream)
-  x-api-slug: iex-corporate-actions-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Delayed Quote (stream)
-  x-api-slug: iex-delayed-quote-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX HIST (stream)
-  x-api-slug: iex-hist-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Historical Summary (stream)
-  x-api-slug: iex-historical-summary-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Market (stream)
-  x-api-slug: iex-market-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX News (stream)
-  x-api-slug: iex-news-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Operational Halt Status (stream)
-  x-api-slug: iex-operational-halt-status-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Previous (stream)
-  x-api-slug: iex-previous-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Quote (stream)
-  x-api-slug: iex-quote-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Recent (stream)
-  x-api-slug: iex-recent-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Security Event (stream)
-  x-api-slug: iex-security-event-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Short Interest List (stream)
-  x-api-slug: iex-short-interest-list-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Splits (stream)
-  x-api-slug: iex-splits-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX TOPS (stream)
-  x-api-slug: iex-tops-stream
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
-- name: IEX Trading API
-  x-api-slug: iex-trading-api
-  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
+- name: IEX - Historical Summary
+  x-api-slug: statshistorical-get
+  description: See our stats page for a reference of the keys.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0
   tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
     Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
-    API, StreamRank, Relative StreamRank
+    API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/statshistorical-get-openapi.md
-- name: IEX Trading API
-  x-api-slug: iex-trading-api
-  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
+- name: IEX - HIST
+  x-api-slug: hist-get
+  description: HIST will provide the output of IEX data products for download on a
+    T+1 basis. Data will remain available for the trailing twelve months.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
   humanURL: https://iextrading.com
   baseURL: https://api.iextrading.com//1.0
   tags: Marketplace, Market Data, Data Provider, API Provider, Financial Services,
     Profiles, General Data, Service API, Relative Data, Pedestal, Historical Data
-    API, StreamRank, Relative StreamRank
+    API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/statshistorical-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/hist-get-openapi.md
-- name: IEX Trading API
-  x-api-slug: iex-trading-api
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https://api.iextrading.com//1.0
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://idx.broker.api.gallery.streamdata.io

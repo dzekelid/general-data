@@ -9,37 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "268709"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arlington-national-cemetery/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Arlington National Cemetery Burial Record API
-  x-api-slug: arlington-national-cemetery-burial-record-api
-  description: Welcome to Arlington National Cemeterys official Facebook page.    Arlington
-    National Cemetery is our nations most hallowed ground. More than 400,000 people
-    are buried here, to include veterans from all our nations wars. Arlington has
-    been the final...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png
-  humanURL: http://wspublic.iss.army.mil
-  baseURL: http://wspublic.iss.army.mil//IssRetrieveServices.svc/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arlington-national-cemetery/openapi.md
-- name: Arlington National Cemetery Mapping API
-  x-api-slug: arlington-national-cemetery-mapping-api
-  description: Welcome to Arlington National Cemeterys official Facebook page.    Arlington
-    National Cemetery is our nations most hallowed ground. More than 400,000 people
-    are buried here, to include veterans from all our nations wars. Arlington has
-    been the final...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png
-  humanURL: http://wspublic.iss.army.mil
-  baseURL: http://public.mapper.army.mil//ANC/rest/services/ANC_External/MapServer/0/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arlington-national-cemetery/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://arin.api.gallery.streamdata.io

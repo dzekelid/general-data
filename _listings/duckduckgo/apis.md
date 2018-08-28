@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckdu
 x-kinRank: "9"
 x-alexaRank: "286"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/duckduckgo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: DuckDuckGo
-  x-api-slug: duckduckgo
-  description: The Internet privacy company that empowers you to seamlessly take control
-    of your personal information online, without any tradeoffs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg
-  humanURL: http://duckduckgo.com
-  baseURL: https:////
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/duckduckgo/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://dropbox.api.gallery.streamdata.io

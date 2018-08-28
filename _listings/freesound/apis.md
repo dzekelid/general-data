@@ -11,26 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "6485"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/freesound/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Freesound
-  x-api-slug: freesound
-  description: Freesound aims to create a huge collaborative database of audio snippets,
-    samples, recordings, bleeps, ... released under Creative Commons licenses that
-    allow their reuse. Freesound provides new and interesting ways of accessing these
-    samples, allowing users to browse the sounds in new ways using keywords, a sounds-like
-    type of browsing and more--upload and download sounds to and from the database,
-    under the same creative commons license, and interact with fellow sound-artists!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
-  humanURL: https://freesound.org
-  baseURL: https://www.freesound.org//apiv2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/freesound/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://fraudlabs.pro.api.gallery.streamdata.io

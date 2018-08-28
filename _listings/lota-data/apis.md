@@ -6,21 +6,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lota-data/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Lota Data
-  x-api-slug: lota-data
-  description: ""
-  image: ""
-  humanURL: http://lotadata.com
-  baseURL: https://api2.lotadata.com//v2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lota-data/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://logmein.api.gallery.streamdata.io

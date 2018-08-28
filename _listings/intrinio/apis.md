@@ -5,297 +5,168 @@ description: Intelligent Data, On Demand. The financial data platform for develo
   investors, students, and educators, with over 200 feeds including real-time, intraday,
   EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
   and Goo...
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
 x-kinRank: "8"
 x-alexaRank: "303229"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Company Master
+  x-api-slug: companies-get
+  description: Returns the master list of all companies covered by the Intrinio Data
+    Marketplace.  You can view the Company/Security Master here.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Securities
+  x-api-slug: securities-get
+  description: Returns security list and information for all securities covered by
+    Intrinio.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Historical Data
+  x-api-slug: historical-data-get
+  description: Returns the historical data for for a selected identifier (ticker symbol
+    or index symbol) for a selected tag.  The complete list of tags available through
+    this function are available here.  Income statement, cash flow statement, and
+    ratios are returned as trailing twelve months values by default, but can be changed
+    with the type parameter.  All other historical data points are returned as their
+    value on a certain day based on filings reported as of that date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Exchange Prices
+  x-api-slug: pricesexchange-get
+  description: Returns professional-grade historical stock prices for all securities
+    traded on a stock exchange for a single specified day.  Historical prices are
+    available back to 1996 or the IPO date, with some companies with data back to
+    the 1970s.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Company SEC Filings
+  x-api-slug: companiesfilings-get
+  description: Returns the complete list of SEC filings for a company.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Insider Transactions by Company
+  x-api-slug: companiesinsider-transactions-get
+  description: Returns a list of all insider transactions in a company.  Criteria
+    for being an insider include being a director, officer, or 10%+ owner in the company.  Transactions
+    are detailed for both non-derivative and derivative transactions by the insider.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Sector News Sentiments
+  x-api-slug: news-sector-sentiments-get
+  description: Returns daily summaries of news sentiments by sector and date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Bank XBRL Tags and Labels
+  x-api-slug: tagsbanks-get
+  description: Returns the Bank XBRL tags and labels for a given ticker/RSSD ID, statement,
+    and date or fiscal year/fiscal quarter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/tagsbanks-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Executive Master
+  x-api-slug: executives-get
+  description: Returns a list of all executives and their unique executive identifier,
+    including both U.S. and International executives.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/tagsbanks-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executives-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Company Executive Contacts
+  x-api-slug: executivescompanies-get
+  description: Returns a list of all information for an executive and their related
+    companies.  Information includes the unique Intrinio executive company identifier,
+    and detailed contact information for the executive at a specified company.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/tagsbanks-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executives-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executivescompanies-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
+- name: Intrinio - Company Executive Roles
+  x-api-slug: executivesroles-get
+  description: For a specific executive company identifier, returns a list of all
+    roles within the company.  For example, an executive may be the Chief Executive
+    Officer, a Director, and the Chairman of the Board of Directors.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
+  humanURL: http://www.intrinio.com
   baseURL: https://api.intrinio.com//
   tags: SaaS, Technology, Enterprise, Financial Services, Market Data, JSON, Paid
     Tier, REST, Free Tier, Have API Key, API Provider, Profiles, General Data, Relative
-    Data, Service API, Historical Data API, StreamRank, Relative StreamRank
+    Data, Service API, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companies-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/securities-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/historical-data-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/pricesexchange-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesfilings-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/companiesinsider-transactions-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/tagsbanks-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executives-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executivescompanies-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/executivesroles-get-openapi.md
-- name: Intrinio API
-  x-api-slug: intrinio-api
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https://api.intrinio.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/openapi.md
-- name: Intrinio Press Releases (stream)
-  x-api-slug: intrinio-press-releases-stream
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/openapi.md
-- name: Intrinio Securities (stream)
-  x-api-slug: intrinio-securities-stream
-  description: Intelligent Data, On Demand. The financial data platform for developers,
-    investors, students, and educators, with over 200 feeds including real-time, intraday,
-    EOD, and international financial data available via REST API, WebSocket, CSV,
-    Excel, and Goo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
-  humanURL: https://intrinio.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/openapi.md
 x-common:
+- type: x-website
+  url: http://www.intrinio.com
 - type: x-api-gallery
   url: http://international.trade.administration.api.gallery.streamdata.io
 - type: x-api-stack

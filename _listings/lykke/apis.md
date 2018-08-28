@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke
-  x-api-slug: lykke
-  description: ""
+- name: Wallet_Api - Get API Ethereum History Address
+  x-api-slug: apiethereumhistoryaddress-get
+  description: Get api ethereum history address.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
   baseURL: https:////
@@ -22,17 +22,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/apiethereumhistoryaddress-get-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io

@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
-apis:
-- name: HitBTC
-  x-api-slug: hitbtc
-  description: We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc
-    provides an excellent trading terminal based on professional trading software
-    which is suitable for new and sophisticated users.    As one of our valued customers,
-    we understand how i...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
-  humanURL: https://hitbtc.com
-  baseURL: https:////api/2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hitbtc/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: https://blog.hitbtc.com/feed/

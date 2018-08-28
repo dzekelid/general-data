@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: BC Geographical Names
 x-complete: 1
@@ -19,4 +18,3 @@ produces:
 - application/json
 consumes:
 - application/json
----

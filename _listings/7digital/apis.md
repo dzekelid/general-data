@@ -7,54 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digit
 x-kinRank: "7"
 x-alexaRank: "55455"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/apis.md
 specificationVersion: "0.14"
-apis:
-- name: 7digital Basket API
-  x-api-slug: 7digital-basket-api
-  description: The basket API allows creation of 7digital hosted baskets which can
-    be populated with items (tracks and releases) from the 7digital catalogue.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
-  humanURL: http://7digital.com
-  baseURL: https://api.7digital.com/1.2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/openapi.md
-- name: 7digital Catalogue API
-  x-api-slug: 7digital-catalogue-api
-  description: Access to the 7digital catalogue API
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
-  humanURL: http://7digital.com
-  baseURL: ://api.7digital.com/1.2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/openapi.md
-- name: 7digital Playlist API
-  x-api-slug: 7digital-playlist-api
-  description: Welcome to 7digital!    Choose from over 30 million high quality tracks
-    in our store; download, sync and play your music on the go.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
-  humanURL: http://7digital.com
-  baseURL: https://api.7digital.com/1.2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/openapi.md
-- name: 7digital Purchasing API
-  x-api-slug: 7digital-purchasing-api
-  description: The Purchasing API allows 3rd parties to deliver digital content to
-    individual users.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
-  humanURL: http://7digital.com
-  baseURL: https://api.7digital.com/1.2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/openapi.md
+apis: []
 x-common:
 - type: x--net-sdk
   url: https://github.com/7digital/SevenDigital.Api.Wrapper

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quan
 x-kinRank: "8"
 x-alexaRank: "53781"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quandl/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Quandl
-  x-api-slug: quandl
-  description: Quandl delivers financial data to users in the format they want. Access
-    thousands of databases via the Quandl API or in your tool of choice.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
-  humanURL: http://quandl.com
-  baseURL: https://www.quandl.com//api/v3
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quandl/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://qualpay.api.gallery.streamdata.io

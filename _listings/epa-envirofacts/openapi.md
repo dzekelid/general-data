@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: EPA Envirofacts
 x-complete: 1
@@ -17,4 +16,46 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /EFFRS_AFSACT1/ROWS/{row_start}:{row_end}/{output}:
+    get:
+      summary: ""
+      description: ""
+      operationId: enviroFacts_EFFRS_AFSACT1
+      x-api-path-slug: effrs-afsact1rowsrow-startrow-endoutput-get
+      parameters:
+      - in: path
+        name: output
+        description: which format to output (JSON,XML,CSV,Excel)
+      - in: path
+        name: row_end
+        description: which row to end on
+      - in: path
+        name: row_start
+        description: which row to start on
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""
+  /EFFRS_AFSACT2/ROWS/{row_start}:{row_end}/{output}:
+    get:
+      summary: ""
+      description: ""
+      operationId: enviroFacts_EFFRS_AFSACT2
+      x-api-path-slug: effrs-afsact2rowsrow-startrow-endoutput-get
+      parameters:
+      - in: path
+        name: output
+        description: which format to output (JSON,XML,CSV,Excel)
+      - in: path
+        name: row_end
+        description: which row to end on
+      - in: path
+        name: row_start
+        description: which row to start on
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""

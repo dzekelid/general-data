@@ -7,30 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr
 x-kinRank: "7"
 x-alexaRank: "59"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tumblr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Tumblr
-  x-api-slug: tumblr
-  description: Tumblr, is a microblogging platform, emphasizing ease of use, that
-    allows users to post text, images, videos, links, quotes and audio to their tumblelog,
-    a short-form blog. Users can follow other users, or choose to make their tumblelog
-    private.The Tumblr API is currently in its version 2.0, and provides a RESTful
-    API that takes advantage of a URI structured including version system(such as
-    blog or user), and allows blog owners to use a custom tumblr blog URL or custom
-    domains. The API uses OAuth for user authentication and all responses in JSON,
-    with JSONP also available. The API provides access to Tumblr Blogs in addition
-    to other characteristics like avatars, followers, photos, audio, video and other
-    user related information.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
-  humanURL: https://www.tumblr.com/
-  baseURL: https://api.tumblr.com//v2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tumblr/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/tumblr.json

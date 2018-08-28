@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linked
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
-apis:
-- name: LinkedIn
-  x-api-slug: linkedin
-  description: DZone Software provides tools and processes to help customers accelerate
-    productivity through agile learning and knowledge-centered collaboration.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
-  humanURL: http://linkedin.com
-  baseURL: https://api.linkedin.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/linkedin/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://link.fish.api.gallery.streamdata.io

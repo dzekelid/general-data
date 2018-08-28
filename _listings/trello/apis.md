@@ -9,27 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/trello/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Trello
-  x-api-slug: trello
-  description: Trello is an online project management and collaboration platform.
-    Users can manage their projects on Trello boards that display the various aspects
-    of their projects, such as what has been done and who is working on what.The Trello
-    API allows developers to access and integrate the data and functionality of Trello
-    with other applications and to create new applications. Some example API methods
-    include retrieving project information, managing user information, and viewing
-    lists and tasks.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png
-  humanURL: http://trello.com
-  baseURL: https://trello.com//1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/trello/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://transport.for.london.unified.api.gallery.streamdata.io

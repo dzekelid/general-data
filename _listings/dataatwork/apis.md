@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/dataatwork/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Open Skills API
-  x-api-slug: open-skills-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2016-10-12 at 11.19.25 PM.png
-  humanURL: http://www.dataatwork.org/
-  baseURL: ://api.dataatwork.org//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/dataatwork/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://data2crm.api.gallery.streamdata.io

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipe
 x-kinRank: "8"
 x-alexaRank: "5"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wikipedia/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Wikipedia
-  x-api-slug: wikipedia
-  description: Wikipedia is a free online encyclopedia, created and edited by volunteers
-    around the world and hosted by the Wikimedia Foundation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipedia.jpg
-  humanURL: https://www.wikipedia.org/
-  baseURL: https://wikimedia.org//api/rest_v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wikipedia/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://webtris.api.gallery.streamdata.io

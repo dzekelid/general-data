@@ -4,8 +4,8 @@ x-collection-name: ATTOM
 x-complete: 0
 info:
   title: Attom Data Solutions API Returns POIs based on point.
-  version: 1.0.0
   description: This search returns a list of POI in proximity to a latitude/longitude.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:

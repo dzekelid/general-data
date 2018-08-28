@@ -11,26 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Quovo
-  x-api-slug: quovo
-  description: Quovo&rsquo;s API provides methods for retrieving data from financial
-    institutions on behalf of clients, advisors, and other users. This documentation
-    includes detailed explanations of API endpoints and common data definitions. Please
-    note that this documentation does not list all API endpoints. Additionally, you
-    may not have access to all of the listed endpoints depending on the services you&rsquo;ve
-    purchased from Quovo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
-  humanURL: http://quovo.com
-  baseURL: https://example.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quovo/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: https://www.quovo.com/fintech-blog/feed/

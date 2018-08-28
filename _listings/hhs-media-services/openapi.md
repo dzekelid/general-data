@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: HHS Media Services
 x-complete: 1
@@ -227,4 +226,3 @@ paths:
       tags:
       - Resources
       - Media
----

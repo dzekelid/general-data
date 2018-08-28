@@ -6,22 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gumroad
-  x-api-slug: gumroad
-  description: Share and sell exclusive videos directly to your followers. Selling
-    stuff has always been a pain. No longer! Get back to creating.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gumroad/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://gsa.per.diem.api.api.gallery.streamdata.io

@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "2931123"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/polygon/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Point-In-Polygon Census Intersection
-  x-api-slug: pointinpolygon-census-intersection
-  description: Polygon.io offers streaming realtime data for stocks/equities, ETFs,
-    Indecies and Forex/Currencies including crypto currencies. Our Real-Time Stock
-    Data APIs help you build the future on fintech.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/polygon-logo.png
-  humanURL: http://polygon.io
-  baseURL: https://api.polygon.io//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/polygon/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://plivo.api.gallery.streamdata.io

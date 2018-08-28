@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-deve
 x-kinRank: "7"
 x-alexaRank: "891345"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/awhere/apis.md
 specificationVersion: "0.14"
-apis:
-- name: aWhere
-  x-api-slug: awhere
-  description: aWhere Ag Data Management harnesses agriculture analytics to create
-    unprecedented visibility and insight from farm level to national policy. Learn
-    more at aWhere.com!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-developer-awhere-com.jpg
-  humanURL: http://developer.awhere.com/
-  baseURL: https://api.awhere.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/awhere/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://blog.awhere.com/rss.xml

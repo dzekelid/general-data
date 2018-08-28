@@ -9,63 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-inte
 x-kinRank: "10"
 x-alexaRank: "81093"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/apis.md
 specificationVersion: "0.14"
-apis:
-- name: International Trade Administration Market Research Library
-  x-api-slug: international-trade-administration-market-research-library
-  description: The International Trade Administration (ITA) strengthens the competitiveness
-    of U.S. industry, promotes trade and investment, and ensures fair trade through
-    the rigorous enforcement of our trade laws and agreements. ITA works to improve
-    the global busi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
-  humanURL: http://trade.gov
-  baseURL: http://api.trade.gov//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md
-- name: International Trade Administration Offices And Centers API
-  x-api-slug: international-trade-administration-offices-and-centers-api
-  description: The International Trade Administration (ITA) strengthens the competitiveness
-    of U.S. industry, promotes trade and investment, and ensures fair trade through
-    the rigorous enforcement of our trade laws and agreements. ITA works to improve
-    the global busi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
-  humanURL: http://trade.gov
-  baseURL: ://api.trade.gov//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md
-- name: International Trade Administration Trade Events API
-  x-api-slug: international-trade-administration-trade-events-api
-  description: The International Trade Administration (ITA) strengthens the competitiveness
-    of U.S. industry, promotes trade and investment, and ensures fair trade through
-    the rigorous enforcement of our trade laws and agreements. ITA works to improve
-    the global busi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
-  humanURL: http://trade.gov
-  baseURL: http://api.trade.gov//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md
-- name: ITA Offices And Centers
-  x-api-slug: ita-offices-and-centers
-  description: The International Trade Administration (ITA) strengthens the competitiveness
-    of U.S. industry, promotes trade and investment, and ensures fair trade through
-    the rigorous enforcement of our trade laws and agreements. ITA works to improve
-    the global busi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
-  humanURL: http://trade.gov
-  baseURL: https://api.trade.gov//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://instructure.api.gallery.streamdata.io

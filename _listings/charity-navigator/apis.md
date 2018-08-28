@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-
 x-kinRank: "7"
 x-alexaRank: "49197"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/charity-navigator/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Charity Navigator
-  x-api-slug: charity-navigator
-  description: Charity Navigator is an American independent charity watchdog organization
-    that evaluates charitable organizations in the United States.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
-  humanURL: http://www.charitynavigator.org
-  baseURL: https://api.data.charitynavigator.org//v2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/charity-navigator/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://blog.charitynavigator.org/feeds/posts/default?alt=rss

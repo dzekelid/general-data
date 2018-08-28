@@ -7,38 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconf
 x-kinRank: "7"
 x-alexaRank: "4089"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iconfinder/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Icon Finder
-  x-api-slug: icon-finder
-  description: Iconfinder is the leading search engine and market place for vector
-    icons in SVG, PNG, CSH and AI format..
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
-  humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iconfinder/openapi.md
-- name: IconFinder
-  x-api-slug: iconfinder
-  description: IconFinder is a search tool for graphic designers and web developers.
-    The site acts as a repository of symbolic graphics. Users can search and browse
-    the IconFinder for images suiting their needs. They can download or buy icons
-    or whole sets of icons. Users may also submit icons and attach different levels
-    of license protection to them. The IconFinder API is RESTful and exposes the collection????s
-    search functionality, allowing users to use parameters such as keyword, filter
-    by license, and more. The results are returned in JSON or XML-encoded data.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
-  humanURL: http://iconfinder.com
-  baseURL: http://api.iconfinder.com//v2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iconfinder/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://ibm.watson.api.gallery.streamdata.io

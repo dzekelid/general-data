@@ -1,45 +1,3320 @@
 {
-	"name": "The Online News Archive",
-	"x-slug": "the-online-news-archive",
-	"description": "The Online News Archive is a comprehensive and constantly-growing database of crawled news articles that anyone can access on-demand.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/online-news-archive.jpeg",
-	"x-kinRank": "7",
-	"x-alexaRank": "5243079",
-	"tags": "General Data",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/general-data\/master\/_listings\/the-online-news-archive\/apis.md",
+	"name": "Streadata.io API Gallery - General Data",
+	"description": "This is a repository of general data APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/general-data.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://general-data.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "The Online News Archive",
-			"x-api-slug": "the-online-news-archive",
-			"description": "The Online News Archive is a comprehensive and constantly-growing database of crawled news articles that anyone can access on-demand.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/online-news-archive.jpeg",
-			"humanURL": "https:\/\/onlinenewsarchive.com",
-			"baseURL": "https:\/\/\/",
+			"name": "APIs.io",
+			"x-api-slug": "apis-io",
+			"description": "Find all the APIs you need to build your successful projects. APIs.io is the first search engine for APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/95-apis-io.jpg",
+			"humanURL": "http://apis.io/",
+			"baseURL": "http://apis.io/api/",
 			"tags": "General Data",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/general-data\/master\/_listings\/the-online-news-archive\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "eBay",
+			"x-api-slug": "ebay",
+			"description": "Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds online marketplace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg",
+			"humanURL": "https://ebay.com",
+			"baseURL": "https://api.ebay.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ebay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Factual",
+			"x-api-slug": "factual",
+			"description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg",
+			"humanURL": "http://www.factual.com/",
+			"baseURL": "https://api.v3.factual.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/factual/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wikipedia",
+			"x-api-slug": "wikipedia",
+			"description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipedia.jpg",
+			"humanURL": "https://www.wikipedia.org/",
+			"baseURL": "https://wikimedia.org//api/rest_v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wikipedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/expedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yahoo",
+			"x-api-slug": "yahoo",
+			"description": "News, email and search are just the beginning. Discover more every day. Find your yodel.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg",
+			"humanURL": "http://www.yahoo.com",
+			"baseURL": "https://weather.yahooapis.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yahoo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Guardian",
+			"x-api-slug": "the-guardian",
+			"description": "The Guardian is a British national daily newspaper which has grown into a national paper associated with a complex organisational structure and an international multimedia and web presence. The Guardian provides API access to articles accessible by tag and section, and a suite of open source data and tools. The Guardian makes content accessible to increase traffic, brand awareness, and as a marketing vehicle, including partnership opportunities via platform program.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png",
+			"humanURL": "http://www.guardian.co.uk/open-platform",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-guardian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LinkedIn",
+			"x-api-slug": "linkedin",
+			"description": "DZone Software provides tools and processes to help customers accelerate productivity through agile learning and knowledge-centered collaboration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg",
+			"humanURL": "http://linkedin.com",
+			"baseURL": "https://api.linkedin.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/linkedin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tumblr",
+			"x-api-slug": "tumblr",
+			"description": "Tumblr is a place to express yourself, discover yourself, and bond over the stuff you love. Its where your interests connect you with your people.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg",
+			"humanURL": "https://www.tumblr.com/",
+			"baseURL": "https://api.tumblr.com//v2/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tumblr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AMEE",
+			"x-api-slug": "amee",
+			"description": "Data driven solutions to strengthen supply chain performance and risk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/335-amee-developers.jpg",
+			"humanURL": "https://www.amee.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/angellist/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MapQuest",
+			"x-api-slug": "mapquest",
+			"description": "Official MapQuest website, find driving directions, maps, live traffic updates and road conditions.  Find nearby businesses, restaurants and hotels. Explore!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapquest.jpg",
+			"humanURL": "http://mapquest.com",
+			"baseURL": "https://www.mapquestapi.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mapquest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DomainTools",
+			"x-api-slug": "domaintools",
+			"description": "DomainTools helps security analysts turn threat data into threat intelligence. We take indicators from your network, including domains and IPs, and connect them with nearly every active domain on the Internet. Those connections inform risk assessments,...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/393-domaintools.jpg",
+			"humanURL": "http://www.domaintools.com",
+			"baseURL": "http://api.domaintools.com//v1/domaintools.com/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/domaintools/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DonorsChoose",
+			"x-api-slug": "donorschoose",
+			"description": "DonorsChoose.org connects teachers in high-need communities with donors who want to help.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donorschoose.jpg",
+			"humanURL": "http://donorschoose.org",
+			"baseURL": "https://api.donorschoose.org/common/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/donorschoose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yelp",
+			"x-api-slug": "yelp",
+			"description": "User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Yelp",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg",
+			"humanURL": "http://yelp.com/engineering",
+			"baseURL": "https://api.yelp.com//v3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yelp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DuckDuckGo",
+			"x-api-slug": "duckduckgo",
+			"description": "The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/581-duckduckgo.jpg",
+			"humanURL": "http://duckduckgo.com",
+			"baseURL": "https:////",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/duckduckgo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AuthorityLabs",
+			"x-api-slug": "authoritylabs",
+			"description": "Track website rankings in Google, Yahoo!, and Bing daily. Our automated SERP tracking saves you time and helps you respond quickly to ranking changes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg",
+			"humanURL": "http://authoritylabs.com",
+			"baseURL": "https://api.authoritylabs.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/authoritylabs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov.au",
+			"x-api-slug": "data-gov-au",
+			"description": "In a world that is becoming increasingly more visual, the ability to find and use images effectively gives communications professionals a competitive advantage. Cutcaster has tapped into a new creative universe of unique photos and vector illustrations that can be purchased royalty free for use in publishing, web design project, printing brochures, advertising, corporate marketing, electronic usage on websites and presentations. Cutcaster is the first model that adds a dynamic marketplace structure to support licensing user-generated photography and vectors. If you don&#8217;t have the budget or time to create the content yourself and want to find the most original, highest quality and authentic content not previously available to license and within your budget, then join us for free at Cutcaster.Sellers have the flexibility to set their prices or those new to the world of licensing can use the Cutcaster Algorithm to determine a fair market price for them. There are many ways to purchase photos and vectors from Cutcaster. Buyers can browse the growing Cutcaster image library, download comps, buy credits, sign up for corporate accounts, add images and vectors to their shopping cart without registering and immediately download content when they need it. In addition, buyers, if they choose, can seamlessly name their price by bidding on the photos or illustrations, which a seller can quickly accept, decline or submit a new offer back.  If we don&#8217;t have what you are looking for or you can&#8217;t find it anywhere during your search, you can request custom content and set a deadline in the ProjectRequest area on the homepage and give our amazing user-base the opportunity to &#8220;wow&#8221; you with fresh, authentic and timely content.",
+			"image": "",
+			"humanURL": "http://data.gov.au/",
+			"baseURL": "https://api.data.gov//regulations/v3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov-au/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Europeana",
+			"x-api-slug": "europeana",
+			"description": "Explore 51,990,182 artworks, artefacts, books, videos and sounds from more than 3,500 museums, galleries, libraries and archives across Europe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg",
+			"humanURL": "http://europeana.eu/portal/",
+			"baseURL": "https://www.europeana.eu/v2/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/europeana/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenRouteService",
+			"x-api-slug": "openrouteservice",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg",
+			"humanURL": "http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22",
+			"baseURL": "https://cv.ap.org//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/openrouteservice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SpeakerText",
+			"x-api-slug": "speakertext",
+			"description": "cielo24 captions, transcripts, and video intelligence transforms unstructured media into fully searchable structured media data, powering enhanced discovery, reach, engagement, and accessibility compliance. Contact us for a demo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg",
+			"humanURL": "http://speakertext.com/",
+			"baseURL": "https://api.speakertext.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/speakertext/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StockTwits",
+			"x-api-slug": "stocktwits",
+			"description": "StockTwits is a real-time social network for investors and traders. Download our app and visit StockTwits.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stocktwits.jpg",
+			"humanURL": "http://stocktwits.com",
+			"baseURL": ":///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocktwits/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weather Underground",
+			"x-api-slug": "weather-underground",
+			"description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg",
+			"humanURL": "http://www.wunderground.com",
+			"baseURL": "https://api.wunderground.com//api/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weather-underground/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Getty Images",
+			"x-api-slug": "getty-images",
+			"description": "Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg",
+			"humanURL": "http://www.gettyimages.com/",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/getty-images/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gumroad",
+			"x-api-slug": "gumroad",
+			"description": "Sell music, comics, software, books, and films directly to your audience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg",
+			"humanURL": "http://gumroad.com",
+			"baseURL": "https://api.gumroad.com//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gumroad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"x-api-slug": "national-renewable-energy-laboratory",
+			"description": "The National Renewable Energy Laboratory (NREL) is the nations primary laboratory for renewable energy and energy efficiency research and development (R&D).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg",
+			"humanURL": "http://nrel.gov",
+			"baseURL": "https://developer.nrel.gov//api/transportation-incentives-laws",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenCorporates",
+			"x-api-slug": "opencorporates",
+			"description": "Free and Open Company Data on 135 million companies and corporations in over 125 jurisdictions, including US, UK, Switzerland, Panama...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg",
+			"humanURL": "http://opencorporates.com",
+			"baseURL": "://api.opencorporates.com/v0.4/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"x-api-slug": "washington-metropolitan-area-transit-authority",
+			"description": "Official feed of Metro/WMATA, not monitored 24/7. Report emergencies to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg",
+			"humanURL": "http://wmata.com/",
+			"baseURL": "https://api.wmata.com//TrainPositions",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ARIN",
+			"x-api-slug": "arin",
+			"description": "The American Registry for Internet Numbers (ARIN) is a Regional Internet Registry (RIR) incorporated in the Commonwealth of Virginia, USA. ARIN is one of five (5) RIRs. Like the other RIRs, ARIN:    Provides services related to the technical coordinati...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.jpg",
+			"humanURL": "https://www.arin.net",
+			"baseURL": ":///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Iconfinder",
+			"x-api-slug": "iconfinder",
+			"description": "Iconfinder is the leading search engine and market place for vector icons in SVG, PNG, CSH and AI format..",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg",
+			"humanURL": "http://iconfinder.com",
+			"baseURL": "http://api.iconfinder.com//v2/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iconfinder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MySpace Developers",
+			"x-api-slug": "myspace-developers",
+			"description": "AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram: http://instagram.com/Myspace  Tumblr: http://myspace.tumblr.com  YouTube: http://www.youtube.com/Myspace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg",
+			"humanURL": "http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API",
+			"baseURL": "https://api.myspace.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/myspace-developers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Envestnet",
+			"x-api-slug": "envestnet",
+			"description": "Build and transform financial apps and services with access to financial data through our APIs and digital solutions for banks, developers, and innovators.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg",
+			"humanURL": "http://www.yodlee.com/",
+			"baseURL": "https://api.crunchbase.com//v/3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/envestnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wordnik",
+			"x-api-slug": "wordnik",
+			"description": "Wordnik is an online English dictionary and language resource that provides dictionary and thesaurus content, some of it based on print dictionaries such as the Century Dictionary, the American Heritage Dictionary, WordNet, and GCIDE. Wordnik has collected a corpus of billions of words which it uses to display example sentences, allowing it to provide information on a much larger set of words than a typical dictionary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg",
+			"humanURL": "http://wordnik.com",
+			"baseURL": "https://api.wordnik.com//v4",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wordnik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenCage",
+			"x-api-slug": "opencage",
+			"description": "An easy-to-use forward and reverse geocoding API. Worldwide coverage. Affordable, predictable pricing. Open data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2956-opencage.jpg",
+			"humanURL": "http://opencagedata.com",
+			"baseURL": "https://api.opencagedata.com/v1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Economic Analysis",
+			"x-api-slug": "bureau-of-economic-analysis",
+			"description": "Official Bureau of Economic Analysis website. Source of US economic statistics including national income and product accounts (NIPAs), gross domestic product (GDP) and related measures of national, regional, industry and international accounts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11179-bureau-of-economic-analysis.jpg",
+			"humanURL": "http://www.bea.gov",
+			"baseURL": "://www.bea.gov/api/data?&UserID=Your-36CharacterKey&method=getparameterlist&datasetname=RegionalData&//api/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-economic-analysis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "International Trade Administration",
+			"x-api-slug": "international-trade-administration",
+			"description": "The International Trade Administration (ITA) strengthens the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements. ITA works to improve the global busi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg",
+			"humanURL": "http://trade.gov",
+			"baseURL": "https://api.trade.gov//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Arlington National Cemetery",
+			"x-api-slug": "arlington-national-cemetery",
+			"description": "Welcome to Arlington National Cemeterys official Facebook page.    Arlington National Cemetery is our nations most hallowed ground. More than 400,000 people are buried here, to include veterans from all our nations wars. Arlington has been the final...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png",
+			"humanURL": "http://wspublic.iss.army.mil",
+			"baseURL": "http://public.mapper.army.mil//ANC/rest/services/ANC_External/MapServer/0/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arlington-national-cemetery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"x-api-slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+			"description": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF, BATF, and BATFE) is a federal law enforcement organization within the United States Department of Justice.[4] Its responsibilities include the investigation and prevention of federal offenses involving the unlawful use, manufacture and possession of firearms and explosives; acts of arson and bombings; and illegal trafficking of alcohol and tobacco products. The ATF also regulates via licensing the sale, possession, and transportation of firearms, ammunition, and explosives in interstate commerce. Many of ATFs activities are carried out in conjunction with task forces made up of state and local law enforcement officers, such as Project Safe Neighborhoods. ATF operates a unique fire research laboratory in Beltsville, Maryland, where full-scale mock-ups of criminal arson can be reconstructed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/399px-US-AlcoholTobaccoFirearmsAndExplosives-Seal.svg.png",
+			"humanURL": "http://atf.gov",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Justice Statistics",
+			"x-api-slug": "bureau-of-justice-statistics",
+			"description": "The United States Bureau of Justice Statistics (BJS) is a federal government agency belonging to the U.S. Department of Justice and a principal agency of the U.S. Federal Statistical System. Established on December 27, 1979, the bureau collects, analyzes and publishes data relating to crime in the United States. The agency publishes data regarding statistics gathered from the roughly fifty-thousand agencies that comprise the U.S. justice system on its Web site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png",
+			"humanURL": "http://bjs.gov",
+			"baseURL": "http://www.bjs.gov//bjs/ncvs/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Healthcare.gov",
+			"x-api-slug": "healthcare-gov",
+			"description": "HealthCare.gov is a health insurance exchange website operated under the United States federal government under the provisions of the Patient Protection and Affordable Care Act (ACA, often known as Obamacare), designed to serve the residents of the thirty-six U.S. states that opted not to create their own state exchanges. The exchange facilitates the sale of private health insurance plans to residents of the United States[2] and offers subsidies to those who earn less than four times the federal poverty line. The website also assists those persons who are eligible to sign up for Medicaid, and has a separate marketplace for small businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png",
+			"humanURL": "http://www.healthcare.gov",
+			"baseURL": "https://www.healthcare.gov//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/healthcare-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Product Hunt",
+			"x-api-slug": "product-hunt",
+			"description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyones talking about.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg",
+			"humanURL": "http://producthunt.com",
+			"baseURL": "https://api.producthunt.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/product-hunt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instagram",
+			"x-api-slug": "instagram",
+			"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, and share them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr and Flickr. A distinctive feature is that it confines photos to a square shape, similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect ratio typically used by mobile device cameras. Users can also apply digital filters to their images. The maximum duration for Instagram videos is 15 seconds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png",
+			"humanURL": "http://instagram.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/instagram/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clearbit",
+			"x-api-slug": "clearbit",
+			"description": "Clearbit provides powerful products and data APIs to help your business grow. Contact enrichment, lead generation, financial compliance, and more...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11319-clearbit.jpg",
+			"humanURL": "http://blog.clearbit.com",
+			"baseURL": "https://discovery.clearbit.com//v1/companies",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/clearbit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quandl",
+			"x-api-slug": "quandl",
+			"description": "Quandl delivers financial data to users in the format they want. Access thousands of databases via the Quandl API or in your tool of choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg",
+			"humanURL": "http://quandl.com",
+			"baseURL": "https://www.quandl.com//api/v3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quandl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mynewsdesk",
+			"x-api-slug": "mynewsdesk",
+			"description": "Discover the impact of Digital PR! Monitor what is being said about your brand, create your story, identify and engage your audience and analyze the results",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg",
+			"humanURL": "http://www.mynewsdesk.com",
+			"baseURL": "https://www.mynewsdesk.com//services/pressroom/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsWhip",
+			"x-api-slug": "newswhip",
+			"description": "Understand what social media content resonates with audiences. Centralize your social media monitoring and analytics to discover whats driving engagement.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg",
+			"humanURL": "https://www.newswhip.com/",
+			"baseURL": "https://api.newswhip.com/v1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newswhip/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stocklytics",
+			"x-api-slug": "stocklytics",
+			"description": "Build feature rich, fast applications and websites based around accurate stock market data. Launch in hours rather than days using the Stocklytics API. The Stocklytics API is a powerful, low-cost RESTful API allowing you to create stock/ financial based apps and websites with data from our service. Such as historical stock price data that can be used for creating stock charts and determining trends. We also offer a company financial data API which allows your to get company information for a particular Stock Code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png",
+			"humanURL": "http://stocklytics.com",
+			"baseURL": "https://api.stocklytics.com//services/pressroom/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocklytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Groupon",
+			"x-api-slug": "groupon",
+			"description": "Register for a Groupon API key (client_id) to develop your own Groupon applications. Now, you can put all those great ideas for Groupon improvements, extensions, and multiple-platform interfaces to work.",
+			"image": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png",
+			"humanURL": "http://www.groupon.com/",
+			"baseURL": "https://api.groupon.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/groupon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Open Movie Database",
+			"x-api-slug": "the-open-movie-database",
+			"description": "The OMDb API is a free web service to obtain movie information, all content and images on the site are contributed and maintained by our users.",
+			"image": "",
+			"humanURL": "http://omdbapi.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The New York Times",
+			"x-api-slug": "the-new-york-times",
+			"description": "The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg",
+			"humanURL": "http://nytimes.com",
+			"baseURL": "https://api.nytimes.com//svc",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-new-york-times/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blizzard",
+			"x-api-slug": "blizzard",
+			"description": "This is the documentation for the RESTful APIs exposed through the World of Warcraft community site as a service to the World of Warcraft community.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Blizzard_Entertainment_Logo.svg.png",
+			"humanURL": "http://battle.net",
+			"baseURL": "https://us.battle.net//api/wow/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blizzard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Medium",
+			"x-api-slug": "medium",
+			"description": "Medium is an online publishing platform founded by Twitter co-founder Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional contributions and professional, paid contributions, an example of social journalism.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
+			"humanURL": "https://medium.com/",
+			"baseURL": "https://api.medium.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/medium/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BetterDoctor",
+			"x-api-slug": "betterdoctor",
+			"description": "BetterDoctor helps people find and connect to the best doctors through our consumer app, doctor marketing services, and API. Our mission is to help increase transparency in healthcare and help consumers make better decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg",
+			"humanURL": "https://developer.betterdoctor.com",
+			"baseURL": "https://api.betterdoctor.com//2016-03-01",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/betterdoctor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Giphy",
+			"x-api-slug": "giphy",
+			"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
+			"humanURL": "https://giphy.com",
+			"baseURL": "http://api.giphy.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/giphy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bandsintown",
+			"x-api-slug": "bandsintown",
+			"description": "Concert discovery has changed. Previously, fans would seek out concert dates, but with the rise of social media, fans now expect that information to come to them. Bandsintown simplifies concert discovery by allowing music fans to Track their favorite artists, see which shows they have RSVP&rsquo;d to &amp; share these shows with their friends. The concerts are then synced with their calendar, so fans are sure not to miss the show.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bands_in_town_logo.png",
+			"humanURL": "http://news.bandsintown.com/home",
+			"baseURL": "https://rest.bandsintown.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bandsintown/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"x-api-slug": "rotten-tomatoes",
+			"description": "Rotten Tomatoes is a website launched in August 1998 devoted to film reviews and news; it is widely known as a film review aggregator. Coverage now includes TV content as well. The name derives from the practice of audiences throwing rotten tomatoes when disapproving of a poor stage performance. The company was created by Senh Duong and since January 2010 has been owned by Flixster, which itself was acquired in 2011 by Warner Bros.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png",
+			"humanURL": "http://rottentomatoes.com",
+			"baseURL": "https://api.rottentomatoes.com//api/public/v1.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rotten-tomatoes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Regulations.gov",
+			"x-api-slug": "regulations-gov",
+			"description": "Regulations.gov is a multi-agency website where citizens can view and comment on federal regulations and other agency actions that affect their daily lives. More than 35 federal departments and agencies participate in Regulations.gov, which is designed to encourage public involvement and citizen input.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/regulations-gov-logo.png",
+			"humanURL": "https://www.regulations.gov/",
+			"baseURL": "https://api.data.gov//regulations/v3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/regulations-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "aWhere",
+			"x-api-slug": "awhere",
+			"description": "aWhere Ag Data Management harnesses agriculture analytics to create unprecedented visibility and insight from farm level to national policy. Learn more at aWhere.com!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-developer-awhere-com.jpg",
+			"humanURL": "http://developer.awhere.com/",
+			"baseURL": "https://api.awhere.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/awhere/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gitter",
+			"x-api-slug": "gitter",
+			"description": "Gitter is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png",
+			"humanURL": "http://gitter.im",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DataAtWork",
+			"x-api-slug": "dataatwork",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2016-10-12 at 11.19.25 PM.png",
+			"humanURL": "http://www.dataatwork.org/",
+			"baseURL": "://api.dataatwork.org//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/dataatwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spire Global",
+			"x-api-slug": "spire-global",
+			"description": "Spire Global, Inc. is an American private company specializing in data gathered from a network of small satellites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spire-logo.png",
+			"humanURL": "https://spire.com",
+			"baseURL": "https://ais.spire.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spire-global/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "US Digital Registry",
+			"x-api-slug": "us-digital-registry",
+			"description": "Whether for access to emergency, financial or education public services, users need to trust they are engaging with official U.S. government digital accounts. The U.S. Digital Registry serves as the authoritative resource for agencies, citizens and developers to confirm the official status of social media and public-facing collaboration accounts, mobile apps and mobile websites, and help prevent exploitation from unofficial sources, phishing scams or malicious entities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/digital-gov-logo.jpeg",
+			"humanURL": "https://usdigitalregistry.digitalgov.gov",
+			"baseURL": "https://usdigitalregistry.digitalgov.gov//api/v1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/us-digital-registry/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "USA.Gov Corporate Consumer Contact Information",
+			"x-api-slug": "usa-gov-corporate-consumer-contact-information",
+			"description": "We make the Corporate Consumer Contact listing found in the Consumer Action Handbook (PDF) available via a REST API. The API programmatically returns all of the information contained in the directory, or you can query the API to return just a subset of the available information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png",
+			"humanURL": "https://github.com/usagov/Corporate-Consumer-Contact-API-Documentation",
+			"baseURL": "https://www.usa.gov/api/USAGovAPI/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usa-gov-corporate-consumer-contact-information/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "USAJobs API",
+			"x-api-slug": "usajobs-api",
+			"description": "Federal, state, and local government agencies are hiring and have thousands of job openings across the country, posted on USAJobs.gov and local government jobs sites. This Jobs API allows you to tap into a list of current jobs openings with the government. Jobs are searchable by keyword, location, agency, schedule, or any combination of these.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usajobs.png",
+			"humanURL": "https://search.digitalgov.gov/developer/jobs.html",
+			"baseURL": "https://api.usa.gov//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usajobs-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sustainable Facilities Tool API",
+			"x-api-slug": "sustainable-facilities-tool-api",
+			"description": "Our core API allows developers to interact with the Sustainable Facilities Tool programmatically. Its designed for public use and to be easily integrated into other applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png",
+			"humanURL": "https://sftool.gov/",
+			"baseURL": "https://api.data.gov//sftool/v1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/sustainable-facilities-tool-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GSA Per Diem API",
+			"x-api-slug": "gsa-per-diem-api",
+			"description": "Per Diem Rates are the allowed reimbursement rates for hotel stays and meals for federal travelers. Rates are set for each of the federal governments fiscal years (FY 2014 is October 1, 2013 to September 30, 2014.) GSA is responsible for setting the rates in the continental United States. Many businesses and other organizations adopt these rates as well. GSA is making the rates available using the CKANs Action API via Data.gov to allow software developers programmatic access the data and create innovative uses for it.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gsa-logo.png",
+			"humanURL": "http://gsa.gov/portal/content/162379",
+			"baseURL": "https://inventory.data.gov//api/action/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gsa-per-diem-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "eMuseum API docs",
+			"x-api-slug": "emuseum-api-docs",
+			"description": "Developed in partnership with museums, The Museum System makes capturing, managing and accessing collection information quick and easy. eMuseum is a web-based software program that integrates seamlessly with TMS and other collection management systems to dynamically publish information to your website, Intranet, and kiosks. This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg",
+			"humanURL": "http://gsa.github.io/eMuseum-API/",
+			"baseURL": "https://gsafinearts.pbs.gsa.gov//emuseum/api",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/emuseum-api-docs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "System Award Management",
+			"x-api-slug": "system-award-management",
+			"description": "The SAM API is a RESTful method of retrieving public information about the businesses or individuals (referred to as &ldquo;entities&rdquo;) within the SAM data set. The entities publicly available data set can currently be retrieved on an entity-by-entity basis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/53aa67a8-caec-11e3-9248-37414d200130.gif",
+			"humanURL": "http://gsa.github.io/sam_api/sam/",
+			"baseURL": "https://api.data.gov//sam/v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/system-award-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blogger",
+			"x-api-slug": "blogger",
+			"description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries. It was developed by Pyra Labs, which was bought by Google in 2003. Generally, the blogs are hosted by Google at a subdomain of blogspot.com. Blogs can also be hosted in the registered custom domain of the blogger (like www.example.com).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png",
+			"humanURL": "https://www.blogger.com",
+			"baseURL": "://www.googleapis.com//blogger/v3",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blogger/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TransitFeeds",
+			"x-api-slug": "transitfeeds",
+			"description": "The best source of open official public transit data. Maintained by @qzervaas + others",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26209-rta-service-alerts.jpg",
+			"humanURL": "https://transitfeeds.com",
+			"baseURL": "https://api.transitfeeds.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transitfeeds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SpectroCoin",
+			"x-api-slug": "spectrocoin",
+			"description": "SpectroCoin offers bitcoin exchange, bitcoin wallet, bitcoin debit card, and bitcoin payment processing services. Buy and sell bitcoins through SEPA, international and local bank transfers, or credit and debit cards.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26436-spectrocoin-com.jpg",
+			"humanURL": "http://spectrocoin.com",
+			"baseURL": "https://spectrocoin.com//api/merchant/1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spectrocoin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "News API",
+			"x-api-slug": "news-api",
+			"description": "Get live article metadata from a range of sources including BBC News, TechCrunch, Huffington Post and more with our free News API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg",
+			"humanURL": "https://newsapi.org",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intrinio",
+			"x-api-slug": "intrinio",
+			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IEX",
+			"x-api-slug": "iex",
+			"description": "IEX, the Investors Exchange, is a fair, simple and transparent stock exchange dedicated to investor and issuer protection.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg",
+			"humanURL": "https://iextrading.com",
+			"baseURL": "https://api.iextrading.com//1.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HSBC",
+			"x-api-slug": "hsbc",
+			"description": "HSBC Holdings plc is a British multinational banking and financial services holding company, tracing its origin to a hong in Hong Kong. It is the worlds seventh largest bank by total assets and the largest in Europe with total assets of US$2.374 trillion (as of December 2016). It was established in its present form in London in 1991 by The Hongkong and Shanghai Banking Corporation to act as a new group holding company. The origins of the bank lie mainly in Hong Kong and to a lesser extent in Shanghai, where branches were first opened in 1865. The HSBC name is derived from the initials of the Hongkong and Shanghai Banking Corporation. The company was first formally incorporated in 1866. The company continues to see both the United Kingdom and Hong Kong as its home markets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HSBC-Logo.png",
+			"humanURL": "https://hsbc.com",
+			"baseURL": "https://api.hsbc.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hsbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Danske Bank",
+			"x-api-slug": "danske-bank",
+			"description": "Danske Bank is a Danish bank whose name also literally translates into Danish Bank. It was founded 5 October 1871 as Den Danske Landmandsbank, Hypothek- og Vexelbank i Kjbenhavn (The Danish Farmers Bank, Mortgage and Exchange Bank of Copenhagen). Headquartered in Copenhagen, it is the largest bank in Denmark and a major retail bank in the northern European region with over 5 million retail customers. Danske Bank was number 454 on the Fortune Global 500 list for 2011.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28107-danske-bank.jpg",
+			"humanURL": "https://danskebank.com",
+			"baseURL": "https://obp-data.danskebank.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/danske-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lloyds Bank",
+			"x-api-slug": "lloyds-bank",
+			"description": "Lloyds Bank plc is a British retail and commercial bank with branches across England and Wales. It has traditionally been considered one of the Big Four clearing banks. The bank was founded in Birmingham in 1765. It expanded during the nineteenth and twentieth centuries and took over a number of smaller banking companies. In 1995 it merged with the Trustee Savings Bank and traded as Lloyds TSB Bank plc between 1999 and 2013.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lloyds_bank.png",
+			"humanURL": "https://lloydsbank.com",
+			"baseURL": "https://api.lloydsbank.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lloyds-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Barclays",
+			"x-api-slug": "barclays",
+			"description": "Barclays is a British multinational bank and financial services company headquartered in London. It is a universal bank with global reach, offering products and services across personal, corporate and investment banking, credit cards and wealth management. It has operations in over 40 countries and employs approximately 120,000 people. Barclays is organised into four core businesses: Personal &amp; Corporate (Personal Banking, Corporate Banking, Wealth &amp; Investment Management), Barclaycard, Investment Banking and Africa.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png",
+			"humanURL": "https://barclays.com",
+			"baseURL": "https://atlas.api.barclays/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/barclays/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"x-api-slug": "royal-bank-of-scotland",
+			"description": "The Royal Bank of Scotland (Scottish Gaelic: Banca R&igrave;oghail na h-Alba, Scots: Ryal Baunk o Scotland, Welsh: Banc Brenhinol yr Alban), commonly abbreviated as RBS, is one of the retail banking subsidiaries of The Royal Bank of Scotland Group plc, together with NatWest and Ulster Bank. The Royal Bank of Scotland has around 700 branches, mainly in Scotland, though there are branches in many larger towns and cities throughout England and Wales. Both the bank and its parent, The Royal Bank of Scotland Group, are completely separate from the fellow Edinburgh-based bank, the Bank of Scotland, which pre-dates The Royal Bank of Scotland by 32 years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png",
+			"humanURL": "https://www.rbs.com",
+			"baseURL": "https://openapi.rbs.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/royal-bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Standard Chartered",
+			"x-api-slug": "standard-chartered",
+			"description": "Standard Chartered PLC is a British multinational banking and financial services company headquartered in London, England. It operates a network of more than 1,200 branches and outlets (including subsidiaries, associates and joint ventures) across more than 70 countries and employs around 87,000 people. It is a universal bank with operations in consumer, corporate and institutional banking, and treasury services. Despite its UK base, it does not conduct retail banking in the UK, and around 90% of its profits come from Asia, Africa and the Middle East.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png",
+			"humanURL": "https://developer.sc.com",
+			"baseURL": "https://developer.sc.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/standard-chartered/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "First Trust Bank",
+			"x-api-slug": "first-trust-bank",
+			"description": "First Trust Bank is a trade mark of AIB Group (UK) p.l.c. (a wholly owned subsidiary of Allied Irish Banks, p.l.c.), incorporated in Northern Ireland. Registered Office 92 Ann Street, Belfast BT1 3HH. Registered Number NI018800. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mdy_8774354__firsttrustbank.jpg",
+			"humanURL": "https://firsttrustbank.co.uk/",
+			"baseURL": "https://openapi.firsttrustbank.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/first-trust-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Allied Irish Bank",
+			"x-api-slug": "allied-irish-bank",
+			"description": "Allied Irish Banks (AIB) is one of the so-called Big Four commercial banks in Ireland. AIB offers a full range of personal and corporate banking services. AIB Capital Markets is the division of the company that offers international banking and treasury operations. The bank also offers a range of general insurance products such as home, travel, and health insurance. It offers life assurance and pensions through its tied agency with Irish Life Assurance plc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg",
+			"humanURL": "https://aibgb.co.uk/",
+			"baseURL": "https://openapi.aibgb.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/allied-irish-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Santander Bank",
+			"x-api-slug": "santander-bank",
+			"description": "Santander Bank, N. A., formerly Sovereign Bank, is a wholly owned subsidiary of Spanish Santander Group. It is based in Boston and its principal market is the northeastern United States. It has $54.7 billion in deposits, operates about 650 retail banking offices and over 2,000 ATMs, and employs approximately 9,800 people. It offers an array of financial services and products including retail banking, mortgages, corporate banking, cash management, credit card, capital markets, trust and wealth management, and insurance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg",
+			"humanURL": "https://www.santanderbank.com",
+			"baseURL": "https://openapi.santander.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/santander-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NatWest",
+			"x-api-slug": "natwest",
+			"description": "National Westminster Bank, commonly known as NatWest, is a large retail and commercial bank in the United Kingdom. It was established in 1968 by the merger of National Provincial Bank (established 1833 as National Provincial Bank of England) and Westminster Bank (established 1834 as London County and Westminster Bank). Since 2000 it has been part of the Royal Bank of Scotland Group. Following ring-fencing of the Groups core domestic business, the bank is a direct subsidiary of NatWest Holdings. NatWest Markets comprises its investment banking arm.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/natwest-logo.png",
+			"humanURL": "https://personal.natwest.com/personal.html",
+			"baseURL": "https://openapi.natwest.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/natwest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ulster Bank",
+			"x-api-slug": "ulster-bank",
+			"description": "Ulster Bank is a large commercial bank, and one of the traditional Big Four Irish banks. The Ulster Bank Group is subdivided into two separate legal entities, Ulster Bank Limited (UBL &ndash; registered in Northern Ireland) and Ulster Bank Ireland DAC (UBIDAC &ndash; registered in the Republic of Ireland). The Groups headquarters (and UBIDACs) is located on Georges Quay, Dublin, in the Republic of Ireland whilst the official headquarters of UBL is in Donegall Square East, Belfast, in Northern Ireland, and it maintains a large sector of the financial services in both the UK and the Republic of Ireland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Ulster-Bank-Limited-2090.png",
+			"humanURL": "https://digital.ulsterbank.co.uk/",
+			"baseURL": "https://openapi.ulsterbank.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ulster-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coutts",
+			"x-api-slug": "coutts",
+			"description": "Coutts /??ku?ts/ is a private bank and wealth manager, founded in 1692. It is the seventh oldest bank in the world and its international arm was sold to Union Bancaire Priv&eacute;e in March 2015. It has been owned by the Royal Bank of Scotland Group (RBS) since 2000, when RBS purchased its parent, NatWest. Coutts formed part of RBSs private banking division. During its time with RBS, it acquired Z&uuml;rich-based Bank von Ernst &amp; Cie and in 2008, Coutts Bank von Ernst and other Coutts International subsidiaries became RBS Coutts Bank. These traded as RBS Coutts International to align them with the parent RBS Group until 2011, when RBS Coutts was renamed Coutts &amp; Co. Limited.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Coutts-logo.jpg",
+			"humanURL": "https://www.coutts.com/",
+			"baseURL": "https://openapi.coutts.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coutts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Halifax Bank",
+			"x-api-slug": "halifax-bank",
+			"description": "Halifax is a British bank operating as a trading division of Bank of Scotland, itself a wholly owned subsidiary of Lloyds Banking Group. It is named after the town of Halifax, West Yorkshire where it was founded as a building society in 1853",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Halifax_Logo.png",
+			"humanURL": "https://www.halifax.co.uk/",
+			"baseURL": "https://api.halifax.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/halifax-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nationwide Building Society",
+			"x-api-slug": "nationwide-building-society",
+			"description": "Nationwide Building Society is a British mutual financial institution and the largest building society in the world with over 15 million members. It has its headquarters in Swindon, with an office in Threadneedle Street, London, and administration centres based in Bournemouth, Northampton and Dunfermline. Made up of over a hundred mergers &mdash; most notably its merger with Anglia Building Society in 1987 and Portman Building Society in 2007 &mdash; Nationwide is now the second largest provider of household savings and mortgages in the UK.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nationwide-building-society.png",
+			"humanURL": "https://www.nationwide.co.uk/",
+			"baseURL": "https://openapi.nationwide.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nationwide-building-society/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Ireland",
+			"x-api-slug": "bank-of-ireland",
+			"description": "Bank of Ireland Group plc is a public limited company incorporated in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered number 593672. Bank of Ireland Group plc, whose shares are listed on the main markets of the Irish Stock Exchange plc and the London Stock Exchange plc , is the holding company of Bank of Ireland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg",
+			"humanURL": "https://www.bankofireland.com/",
+			"baseURL": "https://openapi.bankofireland.com/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bank-of-ireland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Scotland",
+			"x-api-slug": "bank-of-scotland",
+			"description": "The Bank of Scotland is a commercial and clearing bank based in Edinburgh, Scotland. With a history dating to the 17th century, it is the fifth-oldest surviving bank in the United Kingdom (the Bank of England having been established one year before), and is the only commercial institution created by the Parliament of Scotland to remain in existence. It was one of the first banks in Europe to print its own banknotes and it continues to print its own sterling banknotes under legal arrangements which allow Scottish banks to issue currency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-scotland-logo.jpg",
+			"humanURL": "https://www.bankofscotland.co.uk/",
+			"baseURL": "https://api.bankofscotland.co.uk/open-banking/v2.1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blockchain",
+			"x-api-slug": "blockchain",
+			"description": "With the largest bitcoin wallet platform in the world, Blockchains software has powered over 100M transactions and empowered users in 130 countries across the globe to transact quickly and without costly intermediaries. We also offers tools for develo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg",
+			"humanURL": "https://blockchain.info",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blockchain/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Freesound",
+			"x-api-slug": "freesound",
+			"description": "Freesound aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse. Freesound provides new and interesting ways of accessing these samples, allowing users to browse the sounds in new ways using keywords, a sounds-like type of browsing and more--upload and download sounds to and from the database, under the same creative commons license, and interact with fellow sound-artists!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png",
+			"humanURL": "https://freesound.org",
+			"baseURL": "https://www.freesound.org//apiv2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/freesound/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Code.gov",
+			"x-api-slug": "code-gov",
+			"description": "Code.gov leverages the power of code sharing and collaboration to help the US Government cut down on duplicative software development and save millions of taxpayer dollars for the American people.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-gov-logo.jpg",
+			"humanURL": "https://code.gov/",
+			"baseURL": "https://api.code.gov//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/code-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quovo",
+			"x-api-slug": "quovo",
+			"description": "Quovo&rsquo;s API provides methods for retrieving data from financial institutions on behalf of clients, advisors, and other users. This documentation includes detailed explanations of API endpoints and common data definitions. Please note that this documentation does not list all API endpoints. Additionally, you may not have access to all of the listed endpoints depending on the services you&rsquo;ve purchased from Quovo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg",
+			"humanURL": "http://quovo.com",
+			"baseURL": "https://example.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quovo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TradeStation",
+			"x-api-slug": "tradestation",
+			"description": "Whether you trade stocks, ETFs, options or futures, TradeStation???s award-winning tools and brokerage services can give you the confidence to achieve your goals.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png",
+			"humanURL": "http://www.tradestation.com",
+			"baseURL": "https://api.tradestation.com//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tradestation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APIs.Guru",
+			"x-api-slug": "apis-guru",
+			"description": "Our goal is to create a machine-readable Wikipedia for REST APIs with the following principal: Open source, community driven project. Only publicly available APIs (free or paid). Anyone can add or change an API, not only API owners. All data can be accessed through a REST API",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2018-05-21 at 3.08.45 PM.png",
+			"humanURL": "http://apis.guru",
+			"baseURL": "https://api.apis.guru//v2/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-guru/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jumpseller",
+			"x-api-slug": "jumpseller",
+			"description": "We founded Jumpseller.com in 2009 in Europe  we called it Vendder back then  and released our first version of the Jumpseller product in September 2010. After releasing the product we quickly grew to thousands of customers. In November 2010, we recei...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg",
+			"humanURL": "http://jumpseller.com",
+			"baseURL": "https://api.jumpseller.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/jumpseller/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lota Data",
+			"x-api-slug": "lota-data",
+			"description": "",
+			"image": "",
+			"humanURL": "http://lotadata.com",
+			"baseURL": "https://api2.lotadata.com//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lota-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rat Genome Database",
+			"x-api-slug": "rat-genome-database",
+			"description": "",
+			"image": "",
+			"humanURL": "http://rest.rgd.mcw.edu",
+			"baseURL": "https://rest.rgd.mcw.edu//rgdws",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rat-genome-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Snow and Ice Data Center",
+			"x-api-slug": "national-snow-and-ice-data-center",
+			"description": "NSIDC manages and distributes scientific data, creates tools for data access, supports data users, performs scientific research, and educates the public about the cryosphere.",
+			"image": "",
+			"humanURL": "http://nsidc.org",
+			"baseURL": "https://nsidc.org//api/dataset/2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-snow-and-ice-data-center/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open FinTech",
+			"x-api-slug": "open-fintech",
+			"description": "International standards yield technological, economic and social advantages. Standards speed up the development of new applications and simplify the process of communication between the services. Data and service is available under the Open Database License (ODbL). It is an open standard and open data, every player of FinTech market can contribute to development and enhancement. All data is available through Rest API based on JSON API standard.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-fintech-io.png",
+			"humanURL": "http://openfintech.io",
+			"baseURL": "https://api.openfintech.io//v1/",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/open-fintech/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OrgHunter",
+			"x-api-slug": "orghunter",
+			"description": "OrgHunter.com is the number one destination for online charity and donor matching services. Every charity deserves the opportunity to be discovered regardless of size or financial status.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28476-org-hunter.jpg",
+			"humanURL": "http://orghunter.com",
+			"baseURL": "https://data.orghunter.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/orghunter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Science Framework",
+			"x-api-slug": "open-science-framework",
+			"description": "OSF provides free and open source project management support for researchers across the entire research lifecycle. As a collaboration tool, OSF helps researchers work on projects privately with a limited number of collaborators and make parts of their projects public, or make all the project publicly accessible for broader dissemination. As a workflow system, OSF enables connections to the many services researchers already use to streamline their process and increase efficiency. As a flexible repository, it can store and archive research data, protocols, and materials.",
+			"image": "",
+			"humanURL": "https://cos.io",
+			"baseURL": "https://test-api.osf.io//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/open-science-framework/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"x-api-slug": "oxford-dictionaries",
+			"description": "If you&rsquo;re looking to enhance your app or website with dictionary data, don&rsquo;t compromise on quality. The Oxford Dictionaries API offers easy and intuitive access to Oxfords dictionary content, which is trusted around the world. Here at Oxford Dictionaries, home of the OED, we love words. That&rsquo;s why we have experienced lexicographers tracking the living language, delving deep into our corpora and monitoring a wide range of media in order to understand how words are being used and how language is evolving. This research is used by our editors to write and edit dictionary entries and translations, meaning we&rsquo;re able to offer up-to-date, accurate, and reliable lexical content in multiple languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oxford-dictionaries-api.png",
+			"humanURL": "https://developer.oxforddictionaries.com/",
+			"baseURL": "https://od-api-demo.oxforddictionaries.com:443//api/v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/oxford-dictionaries/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Polygon",
+			"x-api-slug": "polygon",
+			"description": "Polygon.io offers streaming realtime data for stocks/equities, ETFs, Indecies and Forex/Currencies including crypto currencies. Our Real-Time Stock Data APIs help you build the future on fintech.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/polygon-logo.png",
+			"humanURL": "http://polygon.io",
+			"baseURL": "https://api.polygon.io//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/polygon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Public Transport Victoria Timetable",
+			"x-api-slug": "public-transport-victoria-timetable",
+			"description": "The PTV Timetable API provides direct access to Public Transport Victoria&rsquo;s public transport timetable data. The API returns scheduled timetable, route and stop data for all metropolitan and regional train, tram and bus services in Victoria, including Night Network(Night Train and Night Tram data are included in metropolitan train and tram services data, respectively, whereas Night Bus is a separate route type). The API also returns real-time data for metropolitan train, tram and bus services (where this data is made available to PTV), as well as disruption information, stop facility information, and access to myki ticket outlet data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-transport-victoria.png",
+			"humanURL": "https://www.ptv.vic.gov.au/about-ptv/data-and-reports/datasets/ptv-timetable-api/",
+			"baseURL": "https://timetableapi.ptv.vic.gov.au//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/public-transport-victoria-timetable/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Refuge Restrooms",
+			"x-api-slug": "refuge-restrooms",
+			"description": "Refuge Restrooms is a web application that seeks to provide safe restroom access for transgender, intersex, and gender nonconforming individuals. Users can search for restrooms by proximity to a search location, add new restroom listings, as well as comment and rate existing listings. We&rsquo;re trans led and seek to create a community focused not only on finding existing safe restroom access, but also advocating for transgender, intersex, and gender nonconforming people&rsquo;s safety.",
+			"image": "",
+			"humanURL": "http://refugerestrooms.org",
+			"baseURL": "https://www.refugerestrooms.org//api",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/refuge-restrooms/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rite Kit",
+			"x-api-slug": "rite-kit",
+			"description": "",
+			"image": "",
+			"humanURL": "http://ritekit.com",
+			"baseURL": "https://api.ritekit.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rite-kit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "School Digger",
+			"x-api-slug": "school-digger",
+			"description": "Start your search for a great school at SchoolDigger.com! We have test scores, rankings, school and district boundaries, student/teacher ratios, ethnic makeup, and scores of other useful metrics and information for over 120,000 elementary, middle, and high schools in the United States!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schooldigger.png",
+			"humanURL": "http://schooldigger.com",
+			"baseURL": "https://api.schooldigger.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/school-digger/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The TVDB",
+			"x-api-slug": "the-tvdb",
+			"description": "TheTVDB.com is a community driven database of television shows. All content and images on the site have been contributed by the sites users; the site uses moderated editing to maintain its own standards. The database schema and website are open source under the GNU General Public License.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg",
+			"humanURL": "http://thetvdb.com",
+			"baseURL": "https://api-dev.thetvdb.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-tvdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transavia",
+			"x-api-slug": "transavia",
+			"description": "Want to fly affordably to more than 100 destinations in Europe? Book a flight with Transavia!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28522-airports-api-v2.jpg",
+			"humanURL": "http://transavia.com",
+			"baseURL": "https://tst.api.transavia.com//v3/routes",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transavia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TVmaze",
+			"x-api-slug": "tvmaze",
+			"description": "Founded in 2014, TVmaze is the leading tv meta-data provider on the web. Serving hundreds of apps and services accoss the web. Providing management tools for users to keep track of their favorite shows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png",
+			"humanURL": "http://www.tvmaze.com",
+			"baseURL": "https://api.tvmaze.com//v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tvmaze/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "uebermaps",
+			"x-api-slug": "uebermaps",
+			"description": "uebermaps is a platform for everyone to create and share maps with your favorite spots. uebermaps are interactive maps that enable people to collect interesting places, collaborate, upload photos and share your public or private maps with your friends and family. If you use uebermaps for your mapping community, as a tour guide for friends or as your unlimited geo storage is up to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png",
+			"humanURL": "http://uebermaps.com",
+			"baseURL": "https://uebermaps.com//api/v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uebermaps/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BBC",
+			"x-api-slug": "bbc",
+			"description": "Breaking news, sport, TV, radio and a whole lot more. The BBC informs, educates and entertains - wherever you are, whatever your age.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg",
+			"humanURL": "http://www.bbc.com/",
+			"baseURL": "https://programmes.api.bbc.com//nitro/api",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BC Laws",
+			"x-api-slug": "bc-laws",
+			"description": "BC Laws is an electronic library providing free public access to the laws of British Columbia. BC Laws is hosted by the Queen&rsquo;s Printer of British Columbia and published in partnership with the Ministry of Justice and the Law Clerk of the Legislative Assembly. BC Laws contains a comprehensive collection of BC legislation and related materials. It is available on the internet in two forms: First: The library is available as a web site in which users can browse and search the laws of British Columbia. Second: The library is available as a portal to legislation in raw XML1 data format, accessible via the BC Laws API2. This direct access to raw data is intended to enable third parties to build or add their own custom applications based on the structure of the data and all the associated search functionality inherent in that structure. The BC Laws website itself is an example of one such application.",
+			"image": "",
+			"humanURL": "http://bclaws.ca",
+			"baseURL": "https://www.bclaws.ca//civix",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-laws/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU BON UTIS",
+			"x-api-slug": "eu-bon-utis",
+			"description": "The EDIT Platform for Cybertaxonomy is a collection of open source tools and services which together cover all aspects of the taxonomic workflow. The workflow is grouped into the following areas: taxonomic editing; publishing of edited data; data storage and exchange; collections and specimens; descriptions; fieldwork; literature; and geography. At the heart of the Cybertaxonomy platform is the Common Data Model (CDM), a repository for every conceivable type of data produced by taxonomists in the course of their work, and the backend for most EDIT components.",
+			"image": "",
+			"humanURL": "http://cybertaxonomy.eu",
+			"baseURL": "https://cybertaxonomy.eu//eu-bon/utis/1.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eu-bon-utis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fire Browse",
+			"x-api-slug": "fire-browse",
+			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
+			"humanURL": "http://firebrowse.org",
+			"baseURL": "https://firebrowse.org//api/v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/fire-browse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flat",
+			"x-api-slug": "flat",
+			"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png",
+			"humanURL": "http://flat.io",
+			"baseURL": "https://api.flat.io//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Geneea",
+			"x-api-slug": "geneea",
+			"description": "Geneea helps you analyze large amounts of text. Whether it is Facebook, blogs, e-mails or legal documents in your archives. Within seconds.     Dont change your business processes. Simply plug in the output of The Interpretor, our powerful software p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/geneea-logo.png",
+			"humanURL": "https://www.geneea.com",
+			"baseURL": "https://api.geneea.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/geneea/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BC Geographical Names",
+			"x-api-slug": "bc-geographical-names",
+			"description": "Geographical names are more than labels on maps and road signs. They can reveal patterns of settlement, exploration and migration, and mirror outside influences to our history - aspects of the heritage and promise of an area that might otherwise be overlooked or forgotten by visitors and later generations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png",
+			"humanURL": "https://apps.gov.bc.ca/pub/bcgnws/",
+			"baseURL": "https://apps.gov.bc.ca//pub/geomark",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-geographical-names/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GraphHopper",
+			"x-api-slug": "graphhopper",
+			"description": "Use our web services to add route planning, navigation and traffic aware route optimization to your application in the food delivery industry or for traveling salesmen. We help you to optimize the routes in your logistics, GIS or real estate software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/graphhopper-logo-small-300x51.png",
+			"humanURL": "https://graphhopper.com",
+			"baseURL": "https://graphhopper.com//api/1/vrp",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/graphhopper/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HHS Media Services",
+			"x-api-slug": "hhs-media-services",
+			"description": "Use this API platform to create sites with text and multimedia content for syndication. CDC, FDA, HHS, and NIH have built syndication sites using this platform, which is available in Java and .NET.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png",
+			"humanURL": "https://api.digitalmedia.hhs.gov/",
+			"baseURL": "https://api.digitalmedia.hhs.gov//api/v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hhs-media-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/climacell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParetoNetwork",
+			"x-api-slug": "paretonetwork",
+			"description": "A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg",
+			"humanURL": "https://www.pareto.network",
+			"baseURL": "https:////",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/paretonetwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hacker News",
+			"x-api-slug": "hacker-news",
+			"description": "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by Paul Grahams investment fund and startup incubator, Y Combinator.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hn-246x0w.jpg",
+			"humanURL": "https://news.ycombinator.com/",
+			"baseURL": "https://hacker-news.firebaseio.com//v0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hacker-news/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cryptagio",
+			"x-api-slug": "cryptagio",
+			"description": "Cryptagio is a global crypto exchange, providing a simple, fast and secure way to buy, sell or trade the world&rsquo;s most eminent digital assets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28851-api-cryptagio-com.jpg",
+			"humanURL": "http://www.cryptagio.com",
+			"baseURL": "https:////",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/cryptagio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RipaEx",
+			"x-api-slug": "ripaex",
+			"description": "Ripa Exchange is an hybrid-decentralized exchange with a strong focus on lowering the entry level for opening new exchanges and giving crypto traders safe and secure trading partners to operate on a daily basis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg",
+			"humanURL": "http://www.ripaex.io",
+			"baseURL": "https://api.ripaex.io//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ripaex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nfusion-solutions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Charity Navigator",
+			"x-api-slug": "charity-navigator",
+			"description": "Charity Navigator is an American independent charity watchdog organization that evaluates charitable organizations in the United States.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg",
+			"humanURL": "http://www.charitynavigator.org",
+			"baseURL": "https://api.data.charitynavigator.org//v2",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/charity-navigator/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coord",
+			"x-api-slug": "coord",
+			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
+			"humanURL": "https://coord.co",
+			"baseURL": "https://api.coord.co//v1/users",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coord/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WebTRIS",
+			"x-api-slug": "webtris",
+			"description": "The WebTRIS data available at http://webtris.highwaysengland.co.uk/ is available via an application programming interface (API) in JSON format. This is a free service and there is no need to register to use it. Developers can utilise the WebTRIS data to provide their own services, applications and websites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtris-traffic-flow-api.png",
+			"humanURL": "http://webtris.highwaysengland.co.uk/",
+			"baseURL": "https://webtris.highwaysengland.co.uk//api",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/webtris/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The Online News Archive",
+			"x-api-slug": "the-online-news-archive",
+			"description": "The Online News Archive is a comprehensive and constantly-growing database of crawled news articles that anyone can access on-demand.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/online-news-archive.jpeg",
+			"humanURL": "https://onlinenewsarchive.com",
+			"baseURL": "https:///",
+			"tags": "General Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-online-news-archive/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-website",
-			"url": "https:\/\/onlinenewsarchive.com"
-		}
-	],
+	"tags": "General Data",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "APIs.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-io/apis.yaml"
+		},
+		{
+			"name": "eBay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ebay/apis.yaml"
+		},
+		{
+			"name": "Factual",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/factual/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "Wikipedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wikipedia/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/expedia/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Yahoo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yahoo/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "The Guardian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-guardian/apis.yaml"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/linkedin/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Tumblr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tumblr/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "AMEE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amee/apis.yaml"
+		},
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/angellist/apis.yaml"
+		},
+		{
+			"name": "MapQuest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mapquest/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "DomainTools",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/domaintools/apis.yaml"
+		},
+		{
+			"name": "DonorsChoose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/donorschoose/apis.yaml"
+		},
+		{
+			"name": "Yelp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yelp/apis.yaml"
+		},
+		{
+			"name": "DuckDuckGo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/duckduckgo/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "AuthorityLabs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/authoritylabs/apis.yaml"
+		},
+		{
+			"name": "Data.Gov.au",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov-au/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Europeana",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/europeana/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "OpenRouteService",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/openrouteservice/apis.yaml"
+		},
+		{
+			"name": "SpeakerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/speakertext/apis.yaml"
+		},
+		{
+			"name": "StockTwits",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocktwits/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "Weather Underground",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weather-underground/apis.yaml"
+		},
+		{
+			"name": "Getty Images",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/getty-images/apis.yaml"
+		},
+		{
+			"name": "Gumroad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gumroad/apis.yaml"
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-renewable-energy-laboratory/apis.yaml"
+		},
+		{
+			"name": "OpenCorporates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencorporates/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/apis.yaml"
+		},
+		{
+			"name": "ARIN",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arin/apis.yaml"
+		},
+		{
+			"name": "Iconfinder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iconfinder/apis.yaml"
+		},
+		{
+			"name": "MySpace Developers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/myspace-developers/apis.yaml"
+		},
+		{
+			"name": "Envestnet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/envestnet/apis.yaml"
+		},
+		{
+			"name": "Wordnik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/wordnik/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "OpenCage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencage/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "Bureau of Economic Analysis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-economic-analysis/apis.yaml"
+		},
+		{
+			"name": "International Trade Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/international-trade-administration/apis.yaml"
+		},
+		{
+			"name": "Arlington National Cemetery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/arlington-national-cemetery/apis.yaml"
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/apis.yaml"
+		},
+		{
+			"name": "Bureau of Justice Statistics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-justice-statistics/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "Healthcare.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/healthcare-gov/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Product Hunt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/product-hunt/apis.yaml"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/instagram/apis.yaml"
+		},
+		{
+			"name": "Clearbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/clearbit/apis.yaml"
+		},
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Quandl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quandl/apis.yaml"
+		},
+		{
+			"name": "Mynewsdesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/mynewsdesk/apis.yaml"
+		},
+		{
+			"name": "NewsWhip",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/newswhip/apis.yaml"
+		},
+		{
+			"name": "Stocklytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/stocklytics/apis.yaml"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "Groupon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/groupon/apis.yaml"
+		},
+		{
+			"name": "The Open Movie Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-open-movie-database/apis.yaml"
+		},
+		{
+			"name": "The New York Times",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-new-york-times/apis.yaml"
+		},
+		{
+			"name": "Blizzard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blizzard/apis.yaml"
+		},
+		{
+			"name": "Medium",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/medium/apis.yaml"
+		},
+		{
+			"name": "BetterDoctor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/betterdoctor/apis.yaml"
+		},
+		{
+			"name": "Giphy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/giphy/apis.yaml"
+		},
+		{
+			"name": "Bandsintown",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bandsintown/apis.yaml"
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rotten-tomatoes/apis.yaml"
+		},
+		{
+			"name": "Regulations.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/regulations-gov/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "aWhere",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/awhere/apis.yaml"
+		},
+		{
+			"name": "Gitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gitter/apis.yaml"
+		},
+		{
+			"name": "DataAtWork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/dataatwork/apis.yaml"
+		},
+		{
+			"name": "Spire Global",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spire-global/apis.yaml"
+		},
+		{
+			"name": "US Digital Registry",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/us-digital-registry/apis.yaml"
+		},
+		{
+			"name": "USA.Gov Corporate Consumer Contact Information",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usa-gov-corporate-consumer-contact-information/apis.yaml"
+		},
+		{
+			"name": "USAJobs API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/usajobs-api/apis.yaml"
+		},
+		{
+			"name": "Sustainable Facilities Tool API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/sustainable-facilities-tool-api/apis.yaml"
+		},
+		{
+			"name": "GSA Per Diem API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/gsa-per-diem-api/apis.yaml"
+		},
+		{
+			"name": "eMuseum API docs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/emuseum-api-docs/apis.yaml"
+		},
+		{
+			"name": "System Award Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/system-award-management/apis.yaml"
+		},
+		{
+			"name": "Blogger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blogger/apis.yaml"
+		},
+		{
+			"name": "TransitFeeds",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transitfeeds/apis.yaml"
+		},
+		{
+			"name": "SpectroCoin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spectrocoin/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "News API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/apis.yaml"
+		},
+		{
+			"name": "Intrinio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/intrinio/apis.yaml"
+		},
+		{
+			"name": "IEX",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/iex/apis.yaml"
+		},
+		{
+			"name": "HSBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hsbc/apis.yaml"
+		},
+		{
+			"name": "Danske Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/danske-bank/apis.yaml"
+		},
+		{
+			"name": "Lloyds Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lloyds-bank/apis.yaml"
+		},
+		{
+			"name": "Barclays",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/barclays/apis.yaml"
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/royal-bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "Standard Chartered",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/standard-chartered/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "First Trust Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/first-trust-bank/apis.yaml"
+		},
+		{
+			"name": "Allied Irish Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/allied-irish-bank/apis.yaml"
+		},
+		{
+			"name": "Santander Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/santander-bank/apis.yaml"
+		},
+		{
+			"name": "NatWest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/natwest/apis.yaml"
+		},
+		{
+			"name": "Ulster Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ulster-bank/apis.yaml"
+		},
+		{
+			"name": "Coutts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coutts/apis.yaml"
+		},
+		{
+			"name": "Halifax Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/halifax-bank/apis.yaml"
+		},
+		{
+			"name": "Nationwide Building Society",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nationwide-building-society/apis.yaml"
+		},
+		{
+			"name": "Bank of Ireland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bank-of-ireland/apis.yaml"
+		},
+		{
+			"name": "Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "Blockchain",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/blockchain/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "Freesound",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/freesound/apis.yaml"
+		},
+		{
+			"name": "Code.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/code-gov/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Quovo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/quovo/apis.yaml"
+		},
+		{
+			"name": "TradeStation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tradestation/apis.yaml"
+		},
+		{
+			"name": "APIs.Guru",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/apis-guru/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "Jumpseller",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/jumpseller/apis.yaml"
+		},
+		{
+			"name": "Lota Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lota-data/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Rat Genome Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rat-genome-database/apis.yaml"
+		},
+		{
+			"name": "National Snow and Ice Data Center",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/national-snow-and-ice-data-center/apis.yaml"
+		},
+		{
+			"name": "Open FinTech",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/open-fintech/apis.yaml"
+		},
+		{
+			"name": "OrgHunter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/orghunter/apis.yaml"
+		},
+		{
+			"name": "Open Science Framework",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/open-science-framework/apis.yaml"
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/oxford-dictionaries/apis.yaml"
+		},
+		{
+			"name": "Polygon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/polygon/apis.yaml"
+		},
+		{
+			"name": "Public Transport Victoria Timetable",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/public-transport-victoria-timetable/apis.yaml"
+		},
+		{
+			"name": "Refuge Restrooms",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/refuge-restrooms/apis.yaml"
+		},
+		{
+			"name": "Rite Kit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/rite-kit/apis.yaml"
+		},
+		{
+			"name": "School Digger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/school-digger/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "The TVDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-tvdb/apis.yaml"
+		},
+		{
+			"name": "Transavia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/transavia/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "TVmaze",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tvmaze/apis.yaml"
+		},
+		{
+			"name": "uebermaps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/uebermaps/apis.yaml"
+		},
+		{
+			"name": "BBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bbc/apis.yaml"
+		},
+		{
+			"name": "BC Laws",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-laws/apis.yaml"
+		},
+		{
+			"name": "EU BON UTIS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/eu-bon-utis/apis.yaml"
+		},
+		{
+			"name": "Fire Browse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/fire-browse/apis.yaml"
+		},
+		{
+			"name": "Flat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/flat/apis.yaml"
+		},
+		{
+			"name": "Geneea",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/geneea/apis.yaml"
+		},
+		{
+			"name": "BC Geographical Names",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bc-geographical-names/apis.yaml"
+		},
+		{
+			"name": "GraphHopper",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/graphhopper/apis.yaml"
+		},
+		{
+			"name": "HHS Media Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hhs-media-services/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/climacell/apis.yaml"
+		},
+		{
+			"name": "ParetoNetwork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/paretonetwork/apis.yaml"
+		},
+		{
+			"name": "Hacker News",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/hacker-news/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "Cryptagio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/cryptagio/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "RipaEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/ripaex/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/nfusion-solutions/apis.yaml"
+		},
+		{
+			"name": "Charity Navigator",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/charity-navigator/apis.yaml"
+		},
+		{
+			"name": "Coord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/coord/apis.yaml"
+		},
+		{
+			"name": "WebTRIS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/webtris/apis.yaml"
+		},
+		{
+			"name": "The Online News Archive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/the-online-news-archive/apis.yaml"
 		}
 	]
 }

@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: Spreaker platform enables you to host and listen thousands of radio
-    shows. Spreaker provides a REST web service that enables developers to read and
-    write data to Spreaker.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
-  humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spreaker/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

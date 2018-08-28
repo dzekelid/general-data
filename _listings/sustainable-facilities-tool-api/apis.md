@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/sustainable-facilities-tool-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sustainable Facilities Tool API
-  x-api-slug: sustainable-facilities-tool-api
-  description: Our core API allows developers to interact with the Sustainable Facilities
-    Tool programmatically. Its designed for public use and to be easily integrated
-    into other applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png
-  humanURL: https://sftool.gov/
-  baseURL: https://api.data.gov//sftool/v1/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/sustainable-facilities-tool-api/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://sugarsync..api.gallery.streamdata.io

@@ -7,33 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2956-openc
 x-kinRank: "9"
 x-alexaRank: "1026215"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencage/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Open Cage Geocoder
-  x-api-slug: open-cage-geocoder
-  description: An easy-to-use forward and reverse geocoding API. Worldwide coverage.
-    Affordable, predictable pricing. Open data.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2956-opencage.jpg
-  humanURL: http://opencagedata.com
-  baseURL: https://api.opencagedata.com//geocode
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencage/openapi.md
-- name: OpenCage
-  x-api-slug: opencage
-  description: An easy-to-use forward and reverse geocoding API. Worldwide coverage.
-    Affordable, predictable pricing. Open data.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2956-opencage.jpg
-  humanURL: http://opencagedata.com
-  baseURL: https://api.opencagedata.com/v1/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/opencage/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://open.science.framework.api.gallery.streamdata.io

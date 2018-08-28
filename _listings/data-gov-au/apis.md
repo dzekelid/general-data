@@ -27,30 +27,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov-au/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Regulations.gov
-  x-api-slug: regulations-gov
-  description: Regulations.gov is a website from the United States federal government
-    for helping citizens access documents describing federal regulations. Government
-    agencies post notices, rules, proposed rules and requests for comment on the site.
-    Users can search by timeframe, keyword and type of document.The Regulations.gov
-    API provides developers with access to the same information on the website in
-    a programmatic interface. Search documents, retrieve specific dockets or get document
-    information. Developers can filter search results by date, agency, docket ID and
-    comment period.The full documentation is available on the site as a PDF linked
-    from the footer. The API returns data as XML or JSON and requires an API Key available
-    upon request.
-  image: ""
-  humanURL: http://data.gov.au/
-  baseURL: https://api.data.gov//regulations/v3
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/data-gov-au/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://data.gov.api.gallery.streamdata.io

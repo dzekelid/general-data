@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angell
 x-kinRank: "9"
 x-alexaRank: "2447"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AngelList
-  x-api-slug: angellist
-  description: AngelList is where the world meets startups. Find a great startup job,
-    invest in a startup, or raise money
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
-  humanURL: http://angel.co
-  baseURL: https://api.angel.co//1/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/angellist/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://blog.angel.co

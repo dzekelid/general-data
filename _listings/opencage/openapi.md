@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: OpenCage
 x-complete: 1
@@ -18,4 +17,3 @@ produces:
 - application/json
 consumes:
 - application/json
----

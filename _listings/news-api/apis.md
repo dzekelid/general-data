@@ -7,55 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news
 x-kinRank: "9"
 x-alexaRank: "120829"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: News API
-  x-api-slug: news-api
-  description: Get live article metadata from a range of sources including BBC News,
-    TechCrunch, Huffington Post and more with our free News API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg
-  humanURL: https://newsapi.org
-  baseURL: https://newsapi.org/v2/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md
-- name: News API Everything (stream)
-  x-api-slug: news-api-everything-stream
-  description: Get live article metadata from a range of sources including BBC News,
-    TechCrunch, Huffington Post and more with our free News API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg
-  humanURL: https://newsapi.org
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md
-- name: News API Sources (stream)
-  x-api-slug: news-api-sources-stream
-  description: Get live article metadata from a range of sources including BBC News,
-    TechCrunch, Huffington Post and more with our free News API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg
-  humanURL: https://newsapi.org
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md
-- name: News API Top Headlines (stream)
-  x-api-slug: news-api-top-headlines-stream
-  description: Get live article metadata from a range of sources including BBC News,
-    TechCrunch, Huffington Post and more with our free News API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-news-api.jpg
-  humanURL: https://newsapi.org
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/news-api/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://new.relic.api.gallery.streamdata.io

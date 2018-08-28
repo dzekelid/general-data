@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "557670"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spire-global/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Spire
-  x-api-slug: spire
-  description: Spire Global, Inc. is an American private company specializing in data
-    gathered from a network of small satellites.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spire-logo.png
-  humanURL: https://spire.com
-  baseURL: https://ais.spire.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/spire-global/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://spectrocoin.api.gallery.streamdata.io

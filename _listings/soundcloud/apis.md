@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundc
 x-kinRank: "9"
 x-alexaRank: "112"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/soundcloud/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sound Cloud
-  x-api-slug: sound-cloud
-  description: SoundCloud is a music and podcast streaming platform that lets you
-    listen to millions of songs from around the world, or upload your own. Start listening
-    now!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
-  humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/soundcloud/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://smartbear.software.api.gallery.streamdata.io

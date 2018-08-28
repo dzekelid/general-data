@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.j
 x-kinRank: "9"
 x-alexaRank: "194"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yelp/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Yelp
-  x-api-slug: yelp
-  description: Yelps API program enables you to access trusted Yelp information in
-    real time, such as business listing info, overall business ratings and review
-    counts, deals and recent review excerpts.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg
-  humanURL: http://yelp.com/engineering
-  baseURL: https://api.yelp.com//v3
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/yelp/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://yelp.com/engineering

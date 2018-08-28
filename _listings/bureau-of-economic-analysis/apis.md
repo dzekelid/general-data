@@ -8,24 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11179-bure
 x-kinRank: "9"
 x-alexaRank: "64160"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-economic-analysis/apis.md
 specificationVersion: "0.14"
-apis:
-- name: The Bureau of Economic Analysis (BEA) API
-  x-api-slug: the-bureau-of-economic-analysis-bea-api
-  description: The data API provides programmatic access to BEA published economic
-    statistics using industry-standard methods and procedures. BEAs data API includes
-    methods for retrieving a subset of our statistical data and the meta-data that
-    describes it.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11179-bureau-of-economic-analysis.jpg
-  humanURL: http://www.bea.gov
-  baseURL: ://www.bea.gov/api/data?&UserID=Your-36CharacterKey&method=getparameterlist&datasetname=RegionalData&//api/
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/bureau-of-economic-analysis/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://bureau.of.alcohol.tobacco.firearms.and.explosives.api.gallery.streamdata.io

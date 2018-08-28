@@ -7,77 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washi
 x-kinRank: "8"
 x-alexaRank: "24927"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/apis.md
 specificationVersion: "0.14"
-apis:
-- name: WMATA Bus Route and Stop Methods
-  x-api-slug: wmata-bus-route-and-stop-methods
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Bus.svc
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Incidents
-  x-api-slug: wmata-incidents
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Incidents.svc
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Rail Station Information
-  x-api-slug: wmata-rail-station-information
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//Rail.svc
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Real-Time Bus Predictions
-  x-api-slug: wmata-realtime-bus-predictions
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//NextBusService.svc
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Real-Time Rail Predictions
-  x-api-slug: wmata-realtime-rail-predictions
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//StationPrediction.svc
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
-- name: WMATA Train Positions
-  x-api-slug: wmata-train-positions
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//TrainPositions
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://vzaar.api.gallery.streamdata.io

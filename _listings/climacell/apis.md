@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ClimaCell
-  x-api-slug: climacell
-  description: ClimaCell provides the most accurate weather data in the world by integrating
-    proprietary data extracted from wireless networks and other new sensing technologies
-    with data from traditional sensors. With 90% correlation to ground truth (vs.
-    50% using radar), it&rsquo;s the best you can get for your enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
-  humanURL: https://www.climacell.co
-  baseURL: https://api2.climacell.co//v2
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/climacell/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://clickatell.api.gallery.streamdata.io

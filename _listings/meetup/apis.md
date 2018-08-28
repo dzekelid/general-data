@@ -7,235 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup
-  x-api-slug: meetup
-  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
+- name: Meetup - ActivityFeed
+  x-api-slug: activity-get
+  description: API method for retrieving the activity feed for a member's groups
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
   baseURL: https://api.meetup.com//
   tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
     API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
-    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/activity-get-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
+- name: Meetup - Venues
+  x-api-slug: 2venues-get
+  description: Search for Meetup venues by one of your groups, events, or venue identifiers.
+    For a full text search on public venues use [OpenVenues](/meetup_api/docs/2/open_venues).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
   baseURL: https://api.meetup.com//
   tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
     API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
-    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/activity-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/2venues-get-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com//
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Cities (stream)
-  x-api-slug: meetup-cities-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Comments (stream)
-  x-api-slug: meetup-comments-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Comments v2 (stream)
-  x-api-slug: meetup-comments-v2-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Concierge (stream)
-  x-api-slug: meetup-concierge-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Events (stream)
-  x-api-slug: meetup-events-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find Events (stream)
-  x-api-slug: meetup-find-events-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find Groups (stream)
-  x-api-slug: meetup-find-groups-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find locations (stream)
-  x-api-slug: meetup-find-locations-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find Topics (stream)
-  x-api-slug: meetup-find-topics-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find Upcoming Events (stream)
-  x-api-slug: meetup-find-upcoming-events-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Find Venues (stream)
-  x-api-slug: meetup-find-venues-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Members (stream)
-  x-api-slug: meetup-members-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup OpenEvents (stream)
-  x-api-slug: meetup-openevents-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup OpenVenues (stream)
-  x-api-slug: meetup-openvenues-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Photos (stream)
-  x-api-slug: meetup-photos-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup RSVPs v2 (stream)
-  x-api-slug: meetup-rsvps-v2-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
-- name: Meetup Venues (stream)
-  x-api-slug: meetup-venues-stream
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https:///
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/meetup/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://medium.api.gallery.streamdata.io

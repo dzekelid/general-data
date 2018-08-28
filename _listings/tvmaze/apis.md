@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: General Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tvmaze/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TVmaze user
-  x-api-slug: tvmaze-user
-  description: Founded in 2014, TVmaze is the leading tv meta-data provider on the
-    web. Serving hundreds of apps and services accoss the web. Providing management
-    tools for users to keep track of their favorite shows.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
-  humanURL: http://www.tvmaze.com
-  baseURL: https://api.tvmaze.com//v1
-  tags: General Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/general-data/master/_listings/tvmaze/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.tvmaze.com
